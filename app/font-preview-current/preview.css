@@ -1,0 +1,4 @@
+.original-font-preview {
+  --font-pokeguesser: "PokeGuesserPixel-Regular", monospace;
+  font-family: var(--font-pokeguesser);
+}

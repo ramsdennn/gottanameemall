@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "normal": 418,
+    "shiny": 417
+  },
+  "warnings": [
+    "#201 forms differ between pools; independent selection supported",
+    "#351 forms differ between pools; independent selection supported"
+  ],
+  "source": "https://github.com/PokeAPI/pokeapi/tree/master/data/v2/csv"
+}

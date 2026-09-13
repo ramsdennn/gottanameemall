@@ -1,0 +1,2753 @@
+[
+  {
+    "key": "000MS",
+    "id": 0,
+    "name": "Default",
+    "animated": "/avatars/Ani000MS.png",
+    "still": "/avatars/Ani000MS-still.png"
+  },
+  {
+    "key": "001MS",
+    "id": 1,
+    "name": "Bulbasaur",
+    "animated": "/avatars/Ani001MS.png",
+    "still": "/avatars/Ani001MS-still.png"
+  },
+  {
+    "key": "002MS",
+    "id": 2,
+    "name": "Ivysaur",
+    "animated": "/avatars/Ani002MS.png",
+    "still": "/avatars/Ani002MS-still.png"
+  },
+  {
+    "key": "003MS",
+    "id": 3,
+    "name": "Venusaur",
+    "animated": "/avatars/Ani003MS.png",
+    "still": "/avatars/Ani003MS-still.png"
+  },
+  {
+    "key": "004MS",
+    "id": 4,
+    "name": "Charmander",
+    "animated": "/avatars/Ani004MS.png",
+    "still": "/avatars/Ani004MS-still.png"
+  },
+  {
+    "key": "005MS",
+    "id": 5,
+    "name": "Charmeleon",
+    "animated": "/avatars/Ani005MS.png",
+    "still": "/avatars/Ani005MS-still.png"
+  },
+  {
+    "key": "006MS",
+    "id": 6,
+    "name": "Charizard",
+    "animated": "/avatars/Ani006MS.png",
+    "still": "/avatars/Ani006MS-still.png"
+  },
+  {
+    "key": "007MS",
+    "id": 7,
+    "name": "Squirtle",
+    "animated": "/avatars/Ani007MS.png",
+    "still": "/avatars/Ani007MS-still.png"
+  },
+  {
+    "key": "008MS",
+    "id": 8,
+    "name": "Wartortle",
+    "animated": "/avatars/Ani008MS.png",
+    "still": "/avatars/Ani008MS-still.png"
+  },
+  {
+    "key": "009MS",
+    "id": 9,
+    "name": "Blastoise",
+    "animated": "/avatars/Ani009MS.png",
+    "still": "/avatars/Ani009MS-still.png"
+  },
+  {
+    "key": "010MS",
+    "id": 10,
+    "name": "Caterpie",
+    "animated": "/avatars/Ani010MS.png",
+    "still": "/avatars/Ani010MS-still.png"
+  },
+  {
+    "key": "011MS",
+    "id": 11,
+    "name": "Metapod",
+    "animated": "/avatars/Ani011MS.png",
+    "still": "/avatars/Ani011MS-still.png"
+  },
+  {
+    "key": "012MS",
+    "id": 12,
+    "name": "Butterfree",
+    "animated": "/avatars/Ani012MS.png",
+    "still": "/avatars/Ani012MS-still.png"
+  },
+  {
+    "key": "013MS",
+    "id": 13,
+    "name": "Weedle",
+    "animated": "/avatars/Ani013MS.png",
+    "still": "/avatars/Ani013MS-still.png"
+  },
+  {
+    "key": "014MS",
+    "id": 14,
+    "name": "Kakuna",
+    "animated": "/avatars/Ani014MS.png",
+    "still": "/avatars/Ani014MS-still.png"
+  },
+  {
+    "key": "015MS",
+    "id": 15,
+    "name": "Beedrill",
+    "animated": "/avatars/Ani015MS.png",
+    "still": "/avatars/Ani015MS-still.png"
+  },
+  {
+    "key": "016MS",
+    "id": 16,
+    "name": "Pidgey",
+    "animated": "/avatars/Ani016MS.png",
+    "still": "/avatars/Ani016MS-still.png"
+  },
+  {
+    "key": "017MS",
+    "id": 17,
+    "name": "Pidgeotto",
+    "animated": "/avatars/Ani017MS.png",
+    "still": "/avatars/Ani017MS-still.png"
+  },
+  {
+    "key": "018MS",
+    "id": 18,
+    "name": "Pidgeot",
+    "animated": "/avatars/Ani018MS.png",
+    "still": "/avatars/Ani018MS-still.png"
+  },
+  {
+    "key": "019MS",
+    "id": 19,
+    "name": "Rattata",
+    "animated": "/avatars/Ani019MS.png",
+    "still": "/avatars/Ani019MS-still.png"
+  },
+  {
+    "key": "020MS",
+    "id": 20,
+    "name": "Raticate",
+    "animated": "/avatars/Ani020MS.png",
+    "still": "/avatars/Ani020MS-still.png"
+  },
+  {
+    "key": "021MS",
+    "id": 21,
+    "name": "Spearow",
+    "animated": "/avatars/Ani021MS.png",
+    "still": "/avatars/Ani021MS-still.png"
+  },
+  {
+    "key": "022MS",
+    "id": 22,
+    "name": "Fearow",
+    "animated": "/avatars/Ani022MS.png",
+    "still": "/avatars/Ani022MS-still.png"
+  },
+  {
+    "key": "023MS",
+    "id": 23,
+    "name": "Ekans",
+    "animated": "/avatars/Ani023MS.png",
+    "still": "/avatars/Ani023MS-still.png"
+  },
+  {
+    "key": "024MS",
+    "id": 24,
+    "name": "Arbok",
+    "animated": "/avatars/Ani024MS.png",
+    "still": "/avatars/Ani024MS-still.png"
+  },
+  {
+    "key": "025MS",
+    "id": 25,
+    "name": "Pikachu",
+    "animated": "/avatars/Ani025MS.png",
+    "still": "/avatars/Ani025MS-still.png"
+  },
+  {
+    "key": "026MS",
+    "id": 26,
+    "name": "Raichu",
+    "animated": "/avatars/Ani026MS.png",
+    "still": "/avatars/Ani026MS-still.png"
+  },
+  {
+    "key": "027MS",
+    "id": 27,
+    "name": "Sandshrew",
+    "animated": "/avatars/Ani027MS.png",
+    "still": "/avatars/Ani027MS-still.png"
+  },
+  {
+    "key": "028MS",
+    "id": 28,
+    "name": "Sandslash",
+    "animated": "/avatars/Ani028MS.png",
+    "still": "/avatars/Ani028MS-still.png"
+  },
+  {
+    "key": "029MS",
+    "id": 29,
+    "name": "Nidoranâ™€",
+    "animated": "/avatars/Ani029MS.png",
+    "still": "/avatars/Ani029MS-still.png"
+  },
+  {
+    "key": "030MS",
+    "id": 30,
+    "name": "Nidorina",
+    "animated": "/avatars/Ani030MS.png",
+    "still": "/avatars/Ani030MS-still.png"
+  },
+  {
+    "key": "031MS",
+    "id": 31,
+    "name": "Nidoqueen",
+    "animated": "/avatars/Ani031MS.png",
+    "still": "/avatars/Ani031MS-still.png"
+  },
+  {
+    "key": "032MS",
+    "id": 32,
+    "name": "Nidoranâ™‚",
+    "animated": "/avatars/Ani032MS.png",
+    "still": "/avatars/Ani032MS-still.png"
+  },
+  {
+    "key": "033MS",
+    "id": 33,
+    "name": "Nidorino",
+    "animated": "/avatars/Ani033MS.png",
+    "still": "/avatars/Ani033MS-still.png"
+  },
+  {
+    "key": "034MS",
+    "id": 34,
+    "name": "Nidoking",
+    "animated": "/avatars/Ani034MS.png",
+    "still": "/avatars/Ani034MS-still.png"
+  },
+  {
+    "key": "035MS",
+    "id": 35,
+    "name": "Clefairy",
+    "animated": "/avatars/Ani035MS.png",
+    "still": "/avatars/Ani035MS-still.png"
+  },
+  {
+    "key": "036MS",
+    "id": 36,
+    "name": "Clefable",
+    "animated": "/avatars/Ani036MS.png",
+    "still": "/avatars/Ani036MS-still.png"
+  },
+  {
+    "key": "037MS",
+    "id": 37,
+    "name": "Vulpix",
+    "animated": "/avatars/Ani037MS.png",
+    "still": "/avatars/Ani037MS-still.png"
+  },
+  {
+    "key": "038MS",
+    "id": 38,
+    "name": "Ninetales",
+    "animated": "/avatars/Ani038MS.png",
+    "still": "/avatars/Ani038MS-still.png"
+  },
+  {
+    "key": "039MS",
+    "id": 39,
+    "name": "Jigglypuff",
+    "animated": "/avatars/Ani039MS.png",
+    "still": "/avatars/Ani039MS-still.png"
+  },
+  {
+    "key": "040MS",
+    "id": 40,
+    "name": "Wigglytuff",
+    "animated": "/avatars/Ani040MS.png",
+    "still": "/avatars/Ani040MS-still.png"
+  },
+  {
+    "key": "041MS",
+    "id": 41,
+    "name": "Zubat",
+    "animated": "/avatars/Ani041MS.png",
+    "still": "/avatars/Ani041MS-still.png"
+  },
+  {
+    "key": "042MS",
+    "id": 42,
+    "name": "Golbat",
+    "animated": "/avatars/Ani042MS.png",
+    "still": "/avatars/Ani042MS-still.png"
+  },
+  {
+    "key": "043MS",
+    "id": 43,
+    "name": "Oddish",
+    "animated": "/avatars/Ani043MS.png",
+    "still": "/avatars/Ani043MS-still.png"
+  },
+  {
+    "key": "044MS",
+    "id": 44,
+    "name": "Gloom",
+    "animated": "/avatars/Ani044MS.png",
+    "still": "/avatars/Ani044MS-still.png"
+  },
+  {
+    "key": "045MS",
+    "id": 45,
+    "name": "Vileplume",
+    "animated": "/avatars/Ani045MS.png",
+    "still": "/avatars/Ani045MS-still.png"
+  },
+  {
+    "key": "046MS",
+    "id": 46,
+    "name": "Paras",
+    "animated": "/avatars/Ani046MS.png",
+    "still": "/avatars/Ani046MS-still.png"
+  },
+  {
+    "key": "047MS",
+    "id": 47,
+    "name": "Parasect",
+    "animated": "/avatars/Ani047MS.png",
+    "still": "/avatars/Ani047MS-still.png"
+  },
+  {
+    "key": "048MS",
+    "id": 48,
+    "name": "Venonat",
+    "animated": "/avatars/Ani048MS.png",
+    "still": "/avatars/Ani048MS-still.png"
+  },
+  {
+    "key": "049MS",
+    "id": 49,
+    "name": "Venomoth",
+    "animated": "/avatars/Ani049MS.png",
+    "still": "/avatars/Ani049MS-still.png"
+  },
+  {
+    "key": "050MS",
+    "id": 50,
+    "name": "Diglett",
+    "animated": "/avatars/Ani050MS.png",
+    "still": "/avatars/Ani050MS-still.png"
+  },
+  {
+    "key": "051MS",
+    "id": 51,
+    "name": "Dugtrio",
+    "animated": "/avatars/Ani051MS.png",
+    "still": "/avatars/Ani051MS-still.png"
+  },
+  {
+    "key": "052MS",
+    "id": 52,
+    "name": "Meowth",
+    "animated": "/avatars/Ani052MS.png",
+    "still": "/avatars/Ani052MS-still.png"
+  },
+  {
+    "key": "053MS",
+    "id": 53,
+    "name": "Persian",
+    "animated": "/avatars/Ani053MS.png",
+    "still": "/avatars/Ani053MS-still.png"
+  },
+  {
+    "key": "054MS",
+    "id": 54,
+    "name": "Psyduck",
+    "animated": "/avatars/Ani054MS.png",
+    "still": "/avatars/Ani054MS-still.png"
+  },
+  {
+    "key": "055MS",
+    "id": 55,
+    "name": "Golduck",
+    "animated": "/avatars/Ani055MS.png",
+    "still": "/avatars/Ani055MS-still.png"
+  },
+  {
+    "key": "056MS",
+    "id": 56,
+    "name": "Mankey",
+    "animated": "/avatars/Ani056MS.png",
+    "still": "/avatars/Ani056MS-still.png"
+  },
+  {
+    "key": "057MS",
+    "id": 57,
+    "name": "Primeape",
+    "animated": "/avatars/Ani057MS.png",
+    "still": "/avatars/Ani057MS-still.png"
+  },
+  {
+    "key": "058MS",
+    "id": 58,
+    "name": "Growlithe",
+    "animated": "/avatars/Ani058MS.png",
+    "still": "/avatars/Ani058MS-still.png"
+  },
+  {
+    "key": "059MS",
+    "id": 59,
+    "name": "Arcanine",
+    "animated": "/avatars/Ani059MS.png",
+    "still": "/avatars/Ani059MS-still.png"
+  },
+  {
+    "key": "060MS",
+    "id": 60,
+    "name": "Poliwag",
+    "animated": "/avatars/Ani060MS.png",
+    "still": "/avatars/Ani060MS-still.png"
+  },
+  {
+    "key": "061MS",
+    "id": 61,
+    "name": "Poliwhirl",
+    "animated": "/avatars/Ani061MS.png",
+    "still": "/avatars/Ani061MS-still.png"
+  },
+  {
+    "key": "062MS",
+    "id": 62,
+    "name": "Poliwrath",
+    "animated": "/avatars/Ani062MS.png",
+    "still": "/avatars/Ani062MS-still.png"
+  },
+  {
+    "key": "063MS",
+    "id": 63,
+    "name": "Abra",
+    "animated": "/avatars/Ani063MS.png",
+    "still": "/avatars/Ani063MS-still.png"
+  },
+  {
+    "key": "064MS",
+    "id": 64,
+    "name": "Kadabra",
+    "animated": "/avatars/Ani064MS.png",
+    "still": "/avatars/Ani064MS-still.png"
+  },
+  {
+    "key": "065MS",
+    "id": 65,
+    "name": "Alakazam",
+    "animated": "/avatars/Ani065MS.png",
+    "still": "/avatars/Ani065MS-still.png"
+  },
+  {
+    "key": "066MS",
+    "id": 66,
+    "name": "Machop",
+    "animated": "/avatars/Ani066MS.png",
+    "still": "/avatars/Ani066MS-still.png"
+  },
+  {
+    "key": "067MS",
+    "id": 67,
+    "name": "Machoke",
+    "animated": "/avatars/Ani067MS.png",
+    "still": "/avatars/Ani067MS-still.png"
+  },
+  {
+    "key": "068MS",
+    "id": 68,
+    "name": "Machamp",
+    "animated": "/avatars/Ani068MS.png",
+    "still": "/avatars/Ani068MS-still.png"
+  },
+  {
+    "key": "069MS",
+    "id": 69,
+    "name": "Bellsprout",
+    "animated": "/avatars/Ani069MS.png",
+    "still": "/avatars/Ani069MS-still.png"
+  },
+  {
+    "key": "070MS",
+    "id": 70,
+    "name": "Weepinbell",
+    "animated": "/avatars/Ani070MS.png",
+    "still": "/avatars/Ani070MS-still.png"
+  },
+  {
+    "key": "071MS",
+    "id": 71,
+    "name": "Victreebel",
+    "animated": "/avatars/Ani071MS.png",
+    "still": "/avatars/Ani071MS-still.png"
+  },
+  {
+    "key": "072MS",
+    "id": 72,
+    "name": "Tentacool",
+    "animated": "/avatars/Ani072MS.png",
+    "still": "/avatars/Ani072MS-still.png"
+  },
+  {
+    "key": "073MS",
+    "id": 73,
+    "name": "Tentacruel",
+    "animated": "/avatars/Ani073MS.png",
+    "still": "/avatars/Ani073MS-still.png"
+  },
+  {
+    "key": "074MS",
+    "id": 74,
+    "name": "Geodude",
+    "animated": "/avatars/Ani074MS.png",
+    "still": "/avatars/Ani074MS-still.png"
+  },
+  {
+    "key": "075MS",
+    "id": 75,
+    "name": "Graveler",
+    "animated": "/avatars/Ani075MS.png",
+    "still": "/avatars/Ani075MS-still.png"
+  },
+  {
+    "key": "076MS",
+    "id": 76,
+    "name": "Golem",
+    "animated": "/avatars/Ani076MS.png",
+    "still": "/avatars/Ani076MS-still.png"
+  },
+  {
+    "key": "077MS",
+    "id": 77,
+    "name": "Ponyta",
+    "animated": "/avatars/Ani077MS.png",
+    "still": "/avatars/Ani077MS-still.png"
+  },
+  {
+    "key": "078MS",
+    "id": 78,
+    "name": "Rapidash",
+    "animated": "/avatars/Ani078MS.png",
+    "still": "/avatars/Ani078MS-still.png"
+  },
+  {
+    "key": "079MS",
+    "id": 79,
+    "name": "Slowpoke",
+    "animated": "/avatars/Ani079MS.png",
+    "still": "/avatars/Ani079MS-still.png"
+  },
+  {
+    "key": "080MS",
+    "id": 80,
+    "name": "Slowbro",
+    "animated": "/avatars/Ani080MS.png",
+    "still": "/avatars/Ani080MS-still.png"
+  },
+  {
+    "key": "081MS",
+    "id": 81,
+    "name": "Magnemite",
+    "animated": "/avatars/Ani081MS.png",
+    "still": "/avatars/Ani081MS-still.png"
+  },
+  {
+    "key": "082MS",
+    "id": 82,
+    "name": "Magneton",
+    "animated": "/avatars/Ani082MS.png",
+    "still": "/avatars/Ani082MS-still.png"
+  },
+  {
+    "key": "083MS",
+    "id": 83,
+    "name": "Farfetchâ€™d",
+    "animated": "/avatars/Ani083MS.png",
+    "still": "/avatars/Ani083MS-still.png"
+  },
+  {
+    "key": "084MS",
+    "id": 84,
+    "name": "Doduo",
+    "animated": "/avatars/Ani084MS.png",
+    "still": "/avatars/Ani084MS-still.png"
+  },
+  {
+    "key": "085MS",
+    "id": 85,
+    "name": "Dodrio",
+    "animated": "/avatars/Ani085MS.png",
+    "still": "/avatars/Ani085MS-still.png"
+  },
+  {
+    "key": "086MS",
+    "id": 86,
+    "name": "Seel",
+    "animated": "/avatars/Ani086MS.png",
+    "still": "/avatars/Ani086MS-still.png"
+  },
+  {
+    "key": "087MS",
+    "id": 87,
+    "name": "Dewgong",
+    "animated": "/avatars/Ani087MS.png",
+    "still": "/avatars/Ani087MS-still.png"
+  },
+  {
+    "key": "088MS",
+    "id": 88,
+    "name": "Grimer",
+    "animated": "/avatars/Ani088MS.png",
+    "still": "/avatars/Ani088MS-still.png"
+  },
+  {
+    "key": "089MS",
+    "id": 89,
+    "name": "Muk",
+    "animated": "/avatars/Ani089MS.png",
+    "still": "/avatars/Ani089MS-still.png"
+  },
+  {
+    "key": "090MS",
+    "id": 90,
+    "name": "Shellder",
+    "animated": "/avatars/Ani090MS.png",
+    "still": "/avatars/Ani090MS-still.png"
+  },
+  {
+    "key": "091MS",
+    "id": 91,
+    "name": "Cloyster",
+    "animated": "/avatars/Ani091MS.png",
+    "still": "/avatars/Ani091MS-still.png"
+  },
+  {
+    "key": "092MS",
+    "id": 92,
+    "name": "Gastly",
+    "animated": "/avatars/Ani092MS.png",
+    "still": "/avatars/Ani092MS-still.png"
+  },
+  {
+    "key": "093MS",
+    "id": 93,
+    "name": "Haunter",
+    "animated": "/avatars/Ani093MS.png",
+    "still": "/avatars/Ani093MS-still.png"
+  },
+  {
+    "key": "094MS",
+    "id": 94,
+    "name": "Gengar",
+    "animated": "/avatars/Ani094MS.png",
+    "still": "/avatars/Ani094MS-still.png"
+  },
+  {
+    "key": "095MS",
+    "id": 95,
+    "name": "Onix",
+    "animated": "/avatars/Ani095MS.png",
+    "still": "/avatars/Ani095MS-still.png"
+  },
+  {
+    "key": "096MS",
+    "id": 96,
+    "name": "Drowzee",
+    "animated": "/avatars/Ani096MS.png",
+    "still": "/avatars/Ani096MS-still.png"
+  },
+  {
+    "key": "097MS",
+    "id": 97,
+    "name": "Hypno",
+    "animated": "/avatars/Ani097MS.png",
+    "still": "/avatars/Ani097MS-still.png"
+  },
+  {
+    "key": "098MS",
+    "id": 98,
+    "name": "Krabby",
+    "animated": "/avatars/Ani098MS.png",
+    "still": "/avatars/Ani098MS-still.png"
+  },
+  {
+    "key": "099MS",
+    "id": 99,
+    "name": "Kingler",
+    "animated": "/avatars/Ani099MS.png",
+    "still": "/avatars/Ani099MS-still.png"
+  },
+  {
+    "key": "100MS",
+    "id": 100,
+    "name": "Voltorb",
+    "animated": "/avatars/Ani100MS.png",
+    "still": "/avatars/Ani100MS-still.png"
+  },
+  {
+    "key": "101MS",
+    "id": 101,
+    "name": "Electrode",
+    "animated": "/avatars/Ani101MS.png",
+    "still": "/avatars/Ani101MS-still.png"
+  },
+  {
+    "key": "102MS",
+    "id": 102,
+    "name": "Exeggcute",
+    "animated": "/avatars/Ani102MS.png",
+    "still": "/avatars/Ani102MS-still.png"
+  },
+  {
+    "key": "103MS",
+    "id": 103,
+    "name": "Exeggutor",
+    "animated": "/avatars/Ani103MS.png",
+    "still": "/avatars/Ani103MS-still.png"
+  },
+  {
+    "key": "104MS",
+    "id": 104,
+    "name": "Cubone",
+    "animated": "/avatars/Ani104MS.png",
+    "still": "/avatars/Ani104MS-still.png"
+  },
+  {
+    "key": "105MS",
+    "id": 105,
+    "name": "Marowak",
+    "animated": "/avatars/Ani105MS.png",
+    "still": "/avatars/Ani105MS-still.png"
+  },
+  {
+    "key": "106MS",
+    "id": 106,
+    "name": "Hitmonlee",
+    "animated": "/avatars/Ani106MS.png",
+    "still": "/avatars/Ani106MS-still.png"
+  },
+  {
+    "key": "107MS",
+    "id": 107,
+    "name": "Hitmonchan",
+    "animated": "/avatars/Ani107MS.png",
+    "still": "/avatars/Ani107MS-still.png"
+  },
+  {
+    "key": "108MS",
+    "id": 108,
+    "name": "Lickitung",
+    "animated": "/avatars/Ani108MS.png",
+    "still": "/avatars/Ani108MS-still.png"
+  },
+  {
+    "key": "109MS",
+    "id": 109,
+    "name": "Koffing",
+    "animated": "/avatars/Ani109MS.png",
+    "still": "/avatars/Ani109MS-still.png"
+  },
+  {
+    "key": "110MS",
+    "id": 110,
+    "name": "Weezing",
+    "animated": "/avatars/Ani110MS.png",
+    "still": "/avatars/Ani110MS-still.png"
+  },
+  {
+    "key": "111MS",
+    "id": 111,
+    "name": "Rhyhorn",
+    "animated": "/avatars/Ani111MS.png",
+    "still": "/avatars/Ani111MS-still.png"
+  },
+  {
+    "key": "112MS",
+    "id": 112,
+    "name": "Rhydon",
+    "animated": "/avatars/Ani112MS.png",
+    "still": "/avatars/Ani112MS-still.png"
+  },
+  {
+    "key": "113MS",
+    "id": 113,
+    "name": "Chansey",
+    "animated": "/avatars/Ani113MS.png",
+    "still": "/avatars/Ani113MS-still.png"
+  },
+  {
+    "key": "114MS",
+    "id": 114,
+    "name": "Tangela",
+    "animated": "/avatars/Ani114MS.png",
+    "still": "/avatars/Ani114MS-still.png"
+  },
+  {
+    "key": "115MS",
+    "id": 115,
+    "name": "Kangaskhan",
+    "animated": "/avatars/Ani115MS.png",
+    "still": "/avatars/Ani115MS-still.png"
+  },
+  {
+    "key": "116MS",
+    "id": 116,
+    "name": "Horsea",
+    "animated": "/avatars/Ani116MS.png",
+    "still": "/avatars/Ani116MS-still.png"
+  },
+  {
+    "key": "117MS",
+    "id": 117,
+    "name": "Seadra",
+    "animated": "/avatars/Ani117MS.png",
+    "still": "/avatars/Ani117MS-still.png"
+  },
+  {
+    "key": "118MS",
+    "id": 118,
+    "name": "Goldeen",
+    "animated": "/avatars/Ani118MS.png",
+    "still": "/avatars/Ani118MS-still.png"
+  },
+  {
+    "key": "119MS",
+    "id": 119,
+    "name": "Seaking",
+    "animated": "/avatars/Ani119MS.png",
+    "still": "/avatars/Ani119MS-still.png"
+  },
+  {
+    "key": "120MS",
+    "id": 120,
+    "name": "Staryu",
+    "animated": "/avatars/Ani120MS.png",
+    "still": "/avatars/Ani120MS-still.png"
+  },
+  {
+    "key": "121MS",
+    "id": 121,
+    "name": "Starmie",
+    "animated": "/avatars/Ani121MS.png",
+    "still": "/avatars/Ani121MS-still.png"
+  },
+  {
+    "key": "122MS",
+    "id": 122,
+    "name": "Mr. Mime",
+    "animated": "/avatars/Ani122MS.png",
+    "still": "/avatars/Ani122MS-still.png"
+  },
+  {
+    "key": "123MS",
+    "id": 123,
+    "name": "Scyther",
+    "animated": "/avatars/Ani123MS.png",
+    "still": "/avatars/Ani123MS-still.png"
+  },
+  {
+    "key": "124MS",
+    "id": 124,
+    "name": "Jynx",
+    "animated": "/avatars/Ani124MS.png",
+    "still": "/avatars/Ani124MS-still.png"
+  },
+  {
+    "key": "125MS",
+    "id": 125,
+    "name": "Electabuzz",
+    "animated": "/avatars/Ani125MS.png",
+    "still": "/avatars/Ani125MS-still.png"
+  },
+  {
+    "key": "126MS",
+    "id": 126,
+    "name": "Magmar",
+    "animated": "/avatars/Ani126MS.png",
+    "still": "/avatars/Ani126MS-still.png"
+  },
+  {
+    "key": "127MS",
+    "id": 127,
+    "name": "Pinsir",
+    "animated": "/avatars/Ani127MS.png",
+    "still": "/avatars/Ani127MS-still.png"
+  },
+  {
+    "key": "128MS",
+    "id": 128,
+    "name": "Tauros",
+    "animated": "/avatars/Ani128MS.png",
+    "still": "/avatars/Ani128MS-still.png"
+  },
+  {
+    "key": "129MS",
+    "id": 129,
+    "name": "Magikarp",
+    "animated": "/avatars/Ani129MS.png",
+    "still": "/avatars/Ani129MS-still.png"
+  },
+  {
+    "key": "130MS",
+    "id": 130,
+    "name": "Gyarados",
+    "animated": "/avatars/Ani130MS.png",
+    "still": "/avatars/Ani130MS-still.png"
+  },
+  {
+    "key": "131MS",
+    "id": 131,
+    "name": "Lapras",
+    "animated": "/avatars/Ani131MS.png",
+    "still": "/avatars/Ani131MS-still.png"
+  },
+  {
+    "key": "132MS",
+    "id": 132,
+    "name": "Ditto",
+    "animated": "/avatars/Ani132MS.png",
+    "still": "/avatars/Ani132MS-still.png"
+  },
+  {
+    "key": "133MS",
+    "id": 133,
+    "name": "Eevee",
+    "animated": "/avatars/Ani133MS.png",
+    "still": "/avatars/Ani133MS-still.png"
+  },
+  {
+    "key": "134MS",
+    "id": 134,
+    "name": "Vaporeon",
+    "animated": "/avatars/Ani134MS.png",
+    "still": "/avatars/Ani134MS-still.png"
+  },
+  {
+    "key": "135MS",
+    "id": 135,
+    "name": "Jolteon",
+    "animated": "/avatars/Ani135MS.png",
+    "still": "/avatars/Ani135MS-still.png"
+  },
+  {
+    "key": "136MS",
+    "id": 136,
+    "name": "Flareon",
+    "animated": "/avatars/Ani136MS.png",
+    "still": "/avatars/Ani136MS-still.png"
+  },
+  {
+    "key": "137MS",
+    "id": 137,
+    "name": "Porygon",
+    "animated": "/avatars/Ani137MS.png",
+    "still": "/avatars/Ani137MS-still.png"
+  },
+  {
+    "key": "138MS",
+    "id": 138,
+    "name": "Omanyte",
+    "animated": "/avatars/Ani138MS.png",
+    "still": "/avatars/Ani138MS-still.png"
+  },
+  {
+    "key": "139MS",
+    "id": 139,
+    "name": "Omastar",
+    "animated": "/avatars/Ani139MS.png",
+    "still": "/avatars/Ani139MS-still.png"
+  },
+  {
+    "key": "140MS",
+    "id": 140,
+    "name": "Kabuto",
+    "animated": "/avatars/Ani140MS.png",
+    "still": "/avatars/Ani140MS-still.png"
+  },
+  {
+    "key": "141MS",
+    "id": 141,
+    "name": "Kabutops",
+    "animated": "/avatars/Ani141MS.png",
+    "still": "/avatars/Ani141MS-still.png"
+  },
+  {
+    "key": "142MS",
+    "id": 142,
+    "name": "Aerodactyl",
+    "animated": "/avatars/Ani142MS.png",
+    "still": "/avatars/Ani142MS-still.png"
+  },
+  {
+    "key": "143MS",
+    "id": 143,
+    "name": "Snorlax",
+    "animated": "/avatars/Ani143MS.png",
+    "still": "/avatars/Ani143MS-still.png"
+  },
+  {
+    "key": "144MS",
+    "id": 144,
+    "name": "Articuno",
+    "animated": "/avatars/Ani144MS.png",
+    "still": "/avatars/Ani144MS-still.png"
+  },
+  {
+    "key": "145MS",
+    "id": 145,
+    "name": "Zapdos",
+    "animated": "/avatars/Ani145MS.png",
+    "still": "/avatars/Ani145MS-still.png"
+  },
+  {
+    "key": "146MS",
+    "id": 146,
+    "name": "Moltres",
+    "animated": "/avatars/Ani146MS.png",
+    "still": "/avatars/Ani146MS-still.png"
+  },
+  {
+    "key": "147MS",
+    "id": 147,
+    "name": "Dratini",
+    "animated": "/avatars/Ani147MS.png",
+    "still": "/avatars/Ani147MS-still.png"
+  },
+  {
+    "key": "148MS",
+    "id": 148,
+    "name": "Dragonair",
+    "animated": "/avatars/Ani148MS.png",
+    "still": "/avatars/Ani148MS-still.png"
+  },
+  {
+    "key": "149MS",
+    "id": 149,
+    "name": "Dragonite",
+    "animated": "/avatars/Ani149MS.png",
+    "still": "/avatars/Ani149MS-still.png"
+  },
+  {
+    "key": "150MS",
+    "id": 150,
+    "name": "Mewtwo",
+    "animated": "/avatars/Ani150MS.png",
+    "still": "/avatars/Ani150MS-still.png"
+  },
+  {
+    "key": "151MS",
+    "id": 151,
+    "name": "Mew",
+    "animated": "/avatars/Ani151MS.png",
+    "still": "/avatars/Ani151MS-still.png"
+  },
+  {
+    "key": "152MS",
+    "id": 152,
+    "name": "Chikorita",
+    "animated": "/avatars/Ani152MS.png",
+    "still": "/avatars/Ani152MS-still.png"
+  },
+  {
+    "key": "153MS",
+    "id": 153,
+    "name": "Bayleef",
+    "animated": "/avatars/Ani153MS.png",
+    "still": "/avatars/Ani153MS-still.png"
+  },
+  {
+    "key": "154MS",
+    "id": 154,
+    "name": "Meganium",
+    "animated": "/avatars/Ani154MS.png",
+    "still": "/avatars/Ani154MS-still.png"
+  },
+  {
+    "key": "155MS",
+    "id": 155,
+    "name": "Cyndaquil",
+    "animated": "/avatars/Ani155MS.png",
+    "still": "/avatars/Ani155MS-still.png"
+  },
+  {
+    "key": "156MS",
+    "id": 156,
+    "name": "Quilava",
+    "animated": "/avatars/Ani156MS.png",
+    "still": "/avatars/Ani156MS-still.png"
+  },
+  {
+    "key": "157MS",
+    "id": 157,
+    "name": "Typhlosion",
+    "animated": "/avatars/Ani157MS.png",
+    "still": "/avatars/Ani157MS-still.png"
+  },
+  {
+    "key": "158MS",
+    "id": 158,
+    "name": "Totodile",
+    "animated": "/avatars/Ani158MS.png",
+    "still": "/avatars/Ani158MS-still.png"
+  },
+  {
+    "key": "159MS",
+    "id": 159,
+    "name": "Croconaw",
+    "animated": "/avatars/Ani159MS.png",
+    "still": "/avatars/Ani159MS-still.png"
+  },
+  {
+    "key": "160MS",
+    "id": 160,
+    "name": "Feraligatr",
+    "animated": "/avatars/Ani160MS.png",
+    "still": "/avatars/Ani160MS-still.png"
+  },
+  {
+    "key": "161MS",
+    "id": 161,
+    "name": "Sentret",
+    "animated": "/avatars/Ani161MS.png",
+    "still": "/avatars/Ani161MS-still.png"
+  },
+  {
+    "key": "162MS",
+    "id": 162,
+    "name": "Furret",
+    "animated": "/avatars/Ani162MS.png",
+    "still": "/avatars/Ani162MS-still.png"
+  },
+  {
+    "key": "163MS",
+    "id": 163,
+    "name": "Hoothoot",
+    "animated": "/avatars/Ani163MS.png",
+    "still": "/avatars/Ani163MS-still.png"
+  },
+  {
+    "key": "164MS",
+    "id": 164,
+    "name": "Noctowl",
+    "animated": "/avatars/Ani164MS.png",
+    "still": "/avatars/Ani164MS-still.png"
+  },
+  {
+    "key": "165MS",
+    "id": 165,
+    "name": "Ledyba",
+    "animated": "/avatars/Ani165MS.png",
+    "still": "/avatars/Ani165MS-still.png"
+  },
+  {
+    "key": "166MS",
+    "id": 166,
+    "name": "Ledian",
+    "animated": "/avatars/Ani166MS.png",
+    "still": "/avatars/Ani166MS-still.png"
+  },
+  {
+    "key": "167MS",
+    "id": 167,
+    "name": "Spinarak",
+    "animated": "/avatars/Ani167MS.png",
+    "still": "/avatars/Ani167MS-still.png"
+  },
+  {
+    "key": "168MS",
+    "id": 168,
+    "name": "Ariados",
+    "animated": "/avatars/Ani168MS.png",
+    "still": "/avatars/Ani168MS-still.png"
+  },
+  {
+    "key": "169MS",
+    "id": 169,
+    "name": "Crobat",
+    "animated": "/avatars/Ani169MS.png",
+    "still": "/avatars/Ani169MS-still.png"
+  },
+  {
+    "key": "170MS",
+    "id": 170,
+    "name": "Chinchou",
+    "animated": "/avatars/Ani170MS.png",
+    "still": "/avatars/Ani170MS-still.png"
+  },
+  {
+    "key": "171MS",
+    "id": 171,
+    "name": "Lanturn",
+    "animated": "/avatars/Ani171MS.png",
+    "still": "/avatars/Ani171MS-still.png"
+  },
+  {
+    "key": "172MS",
+    "id": 172,
+    "name": "Pichu",
+    "animated": "/avatars/Ani172MS.png",
+    "still": "/avatars/Ani172MS-still.png"
+  },
+  {
+    "key": "173MS",
+    "id": 173,
+    "name": "Cleffa",
+    "animated": "/avatars/Ani173MS.png",
+    "still": "/avatars/Ani173MS-still.png"
+  },
+  {
+    "key": "174MS",
+    "id": 174,
+    "name": "Igglybuff",
+    "animated": "/avatars/Ani174MS.png",
+    "still": "/avatars/Ani174MS-still.png"
+  },
+  {
+    "key": "175MS",
+    "id": 175,
+    "name": "Togepi",
+    "animated": "/avatars/Ani175MS.png",
+    "still": "/avatars/Ani175MS-still.png"
+  },
+  {
+    "key": "176MS",
+    "id": 176,
+    "name": "Togetic",
+    "animated": "/avatars/Ani176MS.png",
+    "still": "/avatars/Ani176MS-still.png"
+  },
+  {
+    "key": "177MS",
+    "id": 177,
+    "name": "Natu",
+    "animated": "/avatars/Ani177MS.png",
+    "still": "/avatars/Ani177MS-still.png"
+  },
+  {
+    "key": "178MS",
+    "id": 178,
+    "name": "Xatu",
+    "animated": "/avatars/Ani178MS.png",
+    "still": "/avatars/Ani178MS-still.png"
+  },
+  {
+    "key": "179MS",
+    "id": 179,
+    "name": "Mareep",
+    "animated": "/avatars/Ani179MS.png",
+    "still": "/avatars/Ani179MS-still.png"
+  },
+  {
+    "key": "180MS",
+    "id": 180,
+    "name": "Flaaffy",
+    "animated": "/avatars/Ani180MS.png",
+    "still": "/avatars/Ani180MS-still.png"
+  },
+  {
+    "key": "181MS",
+    "id": 181,
+    "name": "Ampharos",
+    "animated": "/avatars/Ani181MS.png",
+    "still": "/avatars/Ani181MS-still.png"
+  },
+  {
+    "key": "182MS",
+    "id": 182,
+    "name": "Bellossom",
+    "animated": "/avatars/Ani182MS.png",
+    "still": "/avatars/Ani182MS-still.png"
+  },
+  {
+    "key": "183MS",
+    "id": 183,
+    "name": "Marill",
+    "animated": "/avatars/Ani183MS.png",
+    "still": "/avatars/Ani183MS-still.png"
+  },
+  {
+    "key": "184MS",
+    "id": 184,
+    "name": "Azumarill",
+    "animated": "/avatars/Ani184MS.png",
+    "still": "/avatars/Ani184MS-still.png"
+  },
+  {
+    "key": "185MS",
+    "id": 185,
+    "name": "Sudowoodo",
+    "animated": "/avatars/Ani185MS.png",
+    "still": "/avatars/Ani185MS-still.png"
+  },
+  {
+    "key": "186MS",
+    "id": 186,
+    "name": "Politoed",
+    "animated": "/avatars/Ani186MS.png",
+    "still": "/avatars/Ani186MS-still.png"
+  },
+  {
+    "key": "187MS",
+    "id": 187,
+    "name": "Hoppip",
+    "animated": "/avatars/Ani187MS.png",
+    "still": "/avatars/Ani187MS-still.png"
+  },
+  {
+    "key": "188MS",
+    "id": 188,
+    "name": "Skiploom",
+    "animated": "/avatars/Ani188MS.png",
+    "still": "/avatars/Ani188MS-still.png"
+  },
+  {
+    "key": "189MS",
+    "id": 189,
+    "name": "Jumpluff",
+    "animated": "/avatars/Ani189MS.png",
+    "still": "/avatars/Ani189MS-still.png"
+  },
+  {
+    "key": "190MS",
+    "id": 190,
+    "name": "Aipom",
+    "animated": "/avatars/Ani190MS.png",
+    "still": "/avatars/Ani190MS-still.png"
+  },
+  {
+    "key": "191MS",
+    "id": 191,
+    "name": "Sunkern",
+    "animated": "/avatars/Ani191MS.png",
+    "still": "/avatars/Ani191MS-still.png"
+  },
+  {
+    "key": "192MS",
+    "id": 192,
+    "name": "Sunflora",
+    "animated": "/avatars/Ani192MS.png",
+    "still": "/avatars/Ani192MS-still.png"
+  },
+  {
+    "key": "193MS",
+    "id": 193,
+    "name": "Yanma",
+    "animated": "/avatars/Ani193MS.png",
+    "still": "/avatars/Ani193MS-still.png"
+  },
+  {
+    "key": "194MS",
+    "id": 194,
+    "name": "Wooper",
+    "animated": "/avatars/Ani194MS.png",
+    "still": "/avatars/Ani194MS-still.png"
+  },
+  {
+    "key": "195MS",
+    "id": 195,
+    "name": "Quagsire",
+    "animated": "/avatars/Ani195MS.png",
+    "still": "/avatars/Ani195MS-still.png"
+  },
+  {
+    "key": "196MS",
+    "id": 196,
+    "name": "Espeon",
+    "animated": "/avatars/Ani196MS.png",
+    "still": "/avatars/Ani196MS-still.png"
+  },
+  {
+    "key": "197MS",
+    "id": 197,
+    "name": "Umbreon",
+    "animated": "/avatars/Ani197MS.png",
+    "still": "/avatars/Ani197MS-still.png"
+  },
+  {
+    "key": "198MS",
+    "id": 198,
+    "name": "Murkrow",
+    "animated": "/avatars/Ani198MS.png",
+    "still": "/avatars/Ani198MS-still.png"
+  },
+  {
+    "key": "199MS",
+    "id": 199,
+    "name": "Slowking",
+    "animated": "/avatars/Ani199MS.png",
+    "still": "/avatars/Ani199MS-still.png"
+  },
+  {
+    "key": "200MS",
+    "id": 200,
+    "name": "Misdreavus",
+    "animated": "/avatars/Ani200MS.png",
+    "still": "/avatars/Ani200MS-still.png"
+  },
+  {
+    "key": "201QU",
+    "id": 201,
+    "name": "Unown (Question mark)",
+    "animated": "/avatars/Ani201QU.png",
+    "still": "/avatars/Ani201QU-still.png"
+  },
+  {
+    "key": "202MS",
+    "id": 202,
+    "name": "Wobbuffet",
+    "animated": "/avatars/Ani202MS.png",
+    "still": "/avatars/Ani202MS-still.png"
+  },
+  {
+    "key": "203MS",
+    "id": 203,
+    "name": "Girafarig",
+    "animated": "/avatars/Ani203MS.png",
+    "still": "/avatars/Ani203MS-still.png"
+  },
+  {
+    "key": "204MS",
+    "id": 204,
+    "name": "Pineco",
+    "animated": "/avatars/Ani204MS.png",
+    "still": "/avatars/Ani204MS-still.png"
+  },
+  {
+    "key": "205MS",
+    "id": 205,
+    "name": "Forretress",
+    "animated": "/avatars/Ani205MS.png",
+    "still": "/avatars/Ani205MS-still.png"
+  },
+  {
+    "key": "206MS",
+    "id": 206,
+    "name": "Dunsparce",
+    "animated": "/avatars/Ani206MS.png",
+    "still": "/avatars/Ani206MS-still.png"
+  },
+  {
+    "key": "207MS",
+    "id": 207,
+    "name": "Gligar",
+    "animated": "/avatars/Ani207MS.png",
+    "still": "/avatars/Ani207MS-still.png"
+  },
+  {
+    "key": "208MS",
+    "id": 208,
+    "name": "Steelix",
+    "animated": "/avatars/Ani208MS.png",
+    "still": "/avatars/Ani208MS-still.png"
+  },
+  {
+    "key": "209MS",
+    "id": 209,
+    "name": "Snubbull",
+    "animated": "/avatars/Ani209MS.png",
+    "still": "/avatars/Ani209MS-still.png"
+  },
+  {
+    "key": "210MS",
+    "id": 210,
+    "name": "Granbull",
+    "animated": "/avatars/Ani210MS.png",
+    "still": "/avatars/Ani210MS-still.png"
+  },
+  {
+    "key": "211MS",
+    "id": 211,
+    "name": "Qwilfish",
+    "animated": "/avatars/Ani211MS.png",
+    "still": "/avatars/Ani211MS-still.png"
+  },
+  {
+    "key": "212MS",
+    "id": 212,
+    "name": "Scizor",
+    "animated": "/avatars/Ani212MS.png",
+    "still": "/avatars/Ani212MS-still.png"
+  },
+  {
+    "key": "213MS",
+    "id": 213,
+    "name": "Shuckle",
+    "animated": "/avatars/Ani213MS.png",
+    "still": "/avatars/Ani213MS-still.png"
+  },
+  {
+    "key": "214MS",
+    "id": 214,
+    "name": "Heracross",
+    "animated": "/avatars/Ani214MS.png",
+    "still": "/avatars/Ani214MS-still.png"
+  },
+  {
+    "key": "215MS",
+    "id": 215,
+    "name": "Sneasel",
+    "animated": "/avatars/Ani215MS.png",
+    "still": "/avatars/Ani215MS-still.png"
+  },
+  {
+    "key": "216MS",
+    "id": 216,
+    "name": "Teddiursa",
+    "animated": "/avatars/Ani216MS.png",
+    "still": "/avatars/Ani216MS-still.png"
+  },
+  {
+    "key": "217MS",
+    "id": 217,
+    "name": "Ursaring",
+    "animated": "/avatars/Ani217MS.png",
+    "still": "/avatars/Ani217MS-still.png"
+  },
+  {
+    "key": "218MS",
+    "id": 218,
+    "name": "Slugma",
+    "animated": "/avatars/Ani218MS.png",
+    "still": "/avatars/Ani218MS-still.png"
+  },
+  {
+    "key": "219MS",
+    "id": 219,
+    "name": "Magcargo",
+    "animated": "/avatars/Ani219MS.png",
+    "still": "/avatars/Ani219MS-still.png"
+  },
+  {
+    "key": "220MS",
+    "id": 220,
+    "name": "Swinub",
+    "animated": "/avatars/Ani220MS.png",
+    "still": "/avatars/Ani220MS-still.png"
+  },
+  {
+    "key": "221MS",
+    "id": 221,
+    "name": "Piloswine",
+    "animated": "/avatars/Ani221MS.png",
+    "still": "/avatars/Ani221MS-still.png"
+  },
+  {
+    "key": "222MS",
+    "id": 222,
+    "name": "Corsola",
+    "animated": "/avatars/Ani222MS.png",
+    "still": "/avatars/Ani222MS-still.png"
+  },
+  {
+    "key": "223MS",
+    "id": 223,
+    "name": "Remoraid",
+    "animated": "/avatars/Ani223MS.png",
+    "still": "/avatars/Ani223MS-still.png"
+  },
+  {
+    "key": "224MS",
+    "id": 224,
+    "name": "Octillery",
+    "animated": "/avatars/Ani224MS.png",
+    "still": "/avatars/Ani224MS-still.png"
+  },
+  {
+    "key": "225MS",
+    "id": 225,
+    "name": "Delibird",
+    "animated": "/avatars/Ani225MS.png",
+    "still": "/avatars/Ani225MS-still.png"
+  },
+  {
+    "key": "226MS",
+    "id": 226,
+    "name": "Mantine",
+    "animated": "/avatars/Ani226MS.png",
+    "still": "/avatars/Ani226MS-still.png"
+  },
+  {
+    "key": "227MS",
+    "id": 227,
+    "name": "Skarmory",
+    "animated": "/avatars/Ani227MS.png",
+    "still": "/avatars/Ani227MS-still.png"
+  },
+  {
+    "key": "228MS",
+    "id": 228,
+    "name": "Houndour",
+    "animated": "/avatars/Ani228MS.png",
+    "still": "/avatars/Ani228MS-still.png"
+  },
+  {
+    "key": "229MS",
+    "id": 229,
+    "name": "Houndoom",
+    "animated": "/avatars/Ani229MS.png",
+    "still": "/avatars/Ani229MS-still.png"
+  },
+  {
+    "key": "230MS",
+    "id": 230,
+    "name": "Kingdra",
+    "animated": "/avatars/Ani230MS.png",
+    "still": "/avatars/Ani230MS-still.png"
+  },
+  {
+    "key": "231MS",
+    "id": 231,
+    "name": "Phanpy",
+    "animated": "/avatars/Ani231MS.png",
+    "still": "/avatars/Ani231MS-still.png"
+  },
+  {
+    "key": "232MS",
+    "id": 232,
+    "name": "Donphan",
+    "animated": "/avatars/Ani232MS.png",
+    "still": "/avatars/Ani232MS-still.png"
+  },
+  {
+    "key": "233MS",
+    "id": 233,
+    "name": "Porygon2",
+    "animated": "/avatars/Ani233MS.png",
+    "still": "/avatars/Ani233MS-still.png"
+  },
+  {
+    "key": "234MS",
+    "id": 234,
+    "name": "Stantler",
+    "animated": "/avatars/Ani234MS.png",
+    "still": "/avatars/Ani234MS-still.png"
+  },
+  {
+    "key": "235MS",
+    "id": 235,
+    "name": "Smeargle",
+    "animated": "/avatars/Ani235MS.png",
+    "still": "/avatars/Ani235MS-still.png"
+  },
+  {
+    "key": "236MS",
+    "id": 236,
+    "name": "Tyrogue",
+    "animated": "/avatars/Ani236MS.png",
+    "still": "/avatars/Ani236MS-still.png"
+  },
+  {
+    "key": "237MS",
+    "id": 237,
+    "name": "Hitmontop",
+    "animated": "/avatars/Ani237MS.png",
+    "still": "/avatars/Ani237MS-still.png"
+  },
+  {
+    "key": "238MS",
+    "id": 238,
+    "name": "Smoochum",
+    "animated": "/avatars/Ani238MS.png",
+    "still": "/avatars/Ani238MS-still.png"
+  },
+  {
+    "key": "239MS",
+    "id": 239,
+    "name": "Elekid",
+    "animated": "/avatars/Ani239MS.png",
+    "still": "/avatars/Ani239MS-still.png"
+  },
+  {
+    "key": "240MS",
+    "id": 240,
+    "name": "Magby",
+    "animated": "/avatars/Ani240MS.png",
+    "still": "/avatars/Ani240MS-still.png"
+  },
+  {
+    "key": "241MS",
+    "id": 241,
+    "name": "Miltank",
+    "animated": "/avatars/Ani241MS.png",
+    "still": "/avatars/Ani241MS-still.png"
+  },
+  {
+    "key": "242MS",
+    "id": 242,
+    "name": "Blissey",
+    "animated": "/avatars/Ani242MS.png",
+    "still": "/avatars/Ani242MS-still.png"
+  },
+  {
+    "key": "243MS",
+    "id": 243,
+    "name": "Raikou",
+    "animated": "/avatars/Ani243MS.png",
+    "still": "/avatars/Ani243MS-still.png"
+  },
+  {
+    "key": "244MS",
+    "id": 244,
+    "name": "Entei",
+    "animated": "/avatars/Ani244MS.png",
+    "still": "/avatars/Ani244MS-still.png"
+  },
+  {
+    "key": "245MS",
+    "id": 245,
+    "name": "Suicune",
+    "animated": "/avatars/Ani245MS.png",
+    "still": "/avatars/Ani245MS-still.png"
+  },
+  {
+    "key": "246MS",
+    "id": 246,
+    "name": "Larvitar",
+    "animated": "/avatars/Ani246MS.png",
+    "still": "/avatars/Ani246MS-still.png"
+  },
+  {
+    "key": "247MS",
+    "id": 247,
+    "name": "Pupitar",
+    "animated": "/avatars/Ani247MS.png",
+    "still": "/avatars/Ani247MS-still.png"
+  },
+  {
+    "key": "248MS",
+    "id": 248,
+    "name": "Tyranitar",
+    "animated": "/avatars/Ani248MS.png",
+    "still": "/avatars/Ani248MS-still.png"
+  },
+  {
+    "key": "249MS",
+    "id": 249,
+    "name": "Lugia",
+    "animated": "/avatars/Ani249MS.png",
+    "still": "/avatars/Ani249MS-still.png"
+  },
+  {
+    "key": "250MS",
+    "id": 250,
+    "name": "Ho-Oh",
+    "animated": "/avatars/Ani250MS.png",
+    "still": "/avatars/Ani250MS-still.png"
+  },
+  {
+    "key": "251MS",
+    "id": 251,
+    "name": "Celebi",
+    "animated": "/avatars/Ani251MS.png",
+    "still": "/avatars/Ani251MS-still.png"
+  },
+  {
+    "key": "252MS",
+    "id": 252,
+    "name": "Treecko",
+    "animated": "/avatars/Ani252MS.png",
+    "still": "/avatars/Ani252MS-still.png"
+  },
+  {
+    "key": "253MS",
+    "id": 253,
+    "name": "Grovyle",
+    "animated": "/avatars/Ani253MS.png",
+    "still": "/avatars/Ani253MS-still.png"
+  },
+  {
+    "key": "254MS",
+    "id": 254,
+    "name": "Sceptile",
+    "animated": "/avatars/Ani254MS.png",
+    "still": "/avatars/Ani254MS-still.png"
+  },
+  {
+    "key": "255MS",
+    "id": 255,
+    "name": "Torchic",
+    "animated": "/avatars/Ani255MS.png",
+    "still": "/avatars/Ani255MS-still.png"
+  },
+  {
+    "key": "256MS",
+    "id": 256,
+    "name": "Combusken",
+    "animated": "/avatars/Ani256MS.png",
+    "still": "/avatars/Ani256MS-still.png"
+  },
+  {
+    "key": "257MS",
+    "id": 257,
+    "name": "Blaziken",
+    "animated": "/avatars/Ani257MS.png",
+    "still": "/avatars/Ani257MS-still.png"
+  },
+  {
+    "key": "258MS",
+    "id": 258,
+    "name": "Mudkip",
+    "animated": "/avatars/Ani258MS.png",
+    "still": "/avatars/Ani258MS-still.png"
+  },
+  {
+    "key": "259MS",
+    "id": 259,
+    "name": "Marshtomp",
+    "animated": "/avatars/Ani259MS.png",
+    "still": "/avatars/Ani259MS-still.png"
+  },
+  {
+    "key": "260MS",
+    "id": 260,
+    "name": "Swampert",
+    "animated": "/avatars/Ani260MS.png",
+    "still": "/avatars/Ani260MS-still.png"
+  },
+  {
+    "key": "261MS",
+    "id": 261,
+    "name": "Poochyena",
+    "animated": "/avatars/Ani261MS.png",
+    "still": "/avatars/Ani261MS-still.png"
+  },
+  {
+    "key": "262MS",
+    "id": 262,
+    "name": "Mightyena",
+    "animated": "/avatars/Ani262MS.png",
+    "still": "/avatars/Ani262MS-still.png"
+  },
+  {
+    "key": "263MS",
+    "id": 263,
+    "name": "Zigzagoon",
+    "animated": "/avatars/Ani263MS.png",
+    "still": "/avatars/Ani263MS-still.png"
+  },
+  {
+    "key": "264MS",
+    "id": 264,
+    "name": "Linoone",
+    "animated": "/avatars/Ani264MS.png",
+    "still": "/avatars/Ani264MS-still.png"
+  },
+  {
+    "key": "265MS",
+    "id": 265,
+    "name": "Wurmple",
+    "animated": "/avatars/Ani265MS.png",
+    "still": "/avatars/Ani265MS-still.png"
+  },
+  {
+    "key": "266MS",
+    "id": 266,
+    "name": "Silcoon",
+    "animated": "/avatars/Ani266MS.png",
+    "still": "/avatars/Ani266MS-still.png"
+  },
+  {
+    "key": "267MS",
+    "id": 267,
+    "name": "Beautifly",
+    "animated": "/avatars/Ani267MS.png",
+    "still": "/avatars/Ani267MS-still.png"
+  },
+  {
+    "key": "268MS",
+    "id": 268,
+    "name": "Cascoon",
+    "animated": "/avatars/Ani268MS.png",
+    "still": "/avatars/Ani268MS-still.png"
+  },
+  {
+    "key": "269MS",
+    "id": 269,
+    "name": "Dustox",
+    "animated": "/avatars/Ani269MS.png",
+    "still": "/avatars/Ani269MS-still.png"
+  },
+  {
+    "key": "270MS",
+    "id": 270,
+    "name": "Lotad",
+    "animated": "/avatars/Ani270MS.png",
+    "still": "/avatars/Ani270MS-still.png"
+  },
+  {
+    "key": "271MS",
+    "id": 271,
+    "name": "Lombre",
+    "animated": "/avatars/Ani271MS.png",
+    "still": "/avatars/Ani271MS-still.png"
+  },
+  {
+    "key": "272MS",
+    "id": 272,
+    "name": "Ludicolo",
+    "animated": "/avatars/Ani272MS.png",
+    "still": "/avatars/Ani272MS-still.png"
+  },
+  {
+    "key": "273MS",
+    "id": 273,
+    "name": "Seedot",
+    "animated": "/avatars/Ani273MS.png",
+    "still": "/avatars/Ani273MS-still.png"
+  },
+  {
+    "key": "274MS",
+    "id": 274,
+    "name": "Nuzleaf",
+    "animated": "/avatars/Ani274MS.png",
+    "still": "/avatars/Ani274MS-still.png"
+  },
+  {
+    "key": "275MS",
+    "id": 275,
+    "name": "Shiftry",
+    "animated": "/avatars/Ani275MS.png",
+    "still": "/avatars/Ani275MS-still.png"
+  },
+  {
+    "key": "276MS",
+    "id": 276,
+    "name": "Taillow",
+    "animated": "/avatars/Ani276MS.png",
+    "still": "/avatars/Ani276MS-still.png"
+  },
+  {
+    "key": "277MS",
+    "id": 277,
+    "name": "Swellow",
+    "animated": "/avatars/Ani277MS.png",
+    "still": "/avatars/Ani277MS-still.png"
+  },
+  {
+    "key": "278MS",
+    "id": 278,
+    "name": "Wingull",
+    "animated": "/avatars/Ani278MS.png",
+    "still": "/avatars/Ani278MS-still.png"
+  },
+  {
+    "key": "279MS",
+    "id": 279,
+    "name": "Pelipper",
+    "animated": "/avatars/Ani279MS.png",
+    "still": "/avatars/Ani279MS-still.png"
+  },
+  {
+    "key": "280MS",
+    "id": 280,
+    "name": "Ralts",
+    "animated": "/avatars/Ani280MS.png",
+    "still": "/avatars/Ani280MS-still.png"
+  },
+  {
+    "key": "281MS",
+    "id": 281,
+    "name": "Kirlia",
+    "animated": "/avatars/Ani281MS.png",
+    "still": "/avatars/Ani281MS-still.png"
+  },
+  {
+    "key": "282MS",
+    "id": 282,
+    "name": "Gardevoir",
+    "animated": "/avatars/Ani282MS.png",
+    "still": "/avatars/Ani282MS-still.png"
+  },
+  {
+    "key": "283MS",
+    "id": 283,
+    "name": "Surskit",
+    "animated": "/avatars/Ani283MS.png",
+    "still": "/avatars/Ani283MS-still.png"
+  },
+  {
+    "key": "284MS",
+    "id": 284,
+    "name": "Masquerain",
+    "animated": "/avatars/Ani284MS.png",
+    "still": "/avatars/Ani284MS-still.png"
+  },
+  {
+    "key": "285MS",
+    "id": 285,
+    "name": "Shroomish",
+    "animated": "/avatars/Ani285MS.png",
+    "still": "/avatars/Ani285MS-still.png"
+  },
+  {
+    "key": "286MS",
+    "id": 286,
+    "name": "Breloom",
+    "animated": "/avatars/Ani286MS.png",
+    "still": "/avatars/Ani286MS-still.png"
+  },
+  {
+    "key": "287MS",
+    "id": 287,
+    "name": "Slakoth",
+    "animated": "/avatars/Ani287MS.png",
+    "still": "/avatars/Ani287MS-still.png"
+  },
+  {
+    "key": "288MS",
+    "id": 288,
+    "name": "Vigoroth",
+    "animated": "/avatars/Ani288MS.png",
+    "still": "/avatars/Ani288MS-still.png"
+  },
+  {
+    "key": "289MS",
+    "id": 289,
+    "name": "Slaking",
+    "animated": "/avatars/Ani289MS.png",
+    "still": "/avatars/Ani289MS-still.png"
+  },
+  {
+    "key": "290MS",
+    "id": 290,
+    "name": "Nincada",
+    "animated": "/avatars/Ani290MS.png",
+    "still": "/avatars/Ani290MS-still.png"
+  },
+  {
+    "key": "291MS",
+    "id": 291,
+    "name": "Ninjask",
+    "animated": "/avatars/Ani291MS.png",
+    "still": "/avatars/Ani291MS-still.png"
+  },
+  {
+    "key": "292MS",
+    "id": 292,
+    "name": "Shedinja",
+    "animated": "/avatars/Ani292MS.png",
+    "still": "/avatars/Ani292MS-still.png"
+  },
+  {
+    "key": "293MS",
+    "id": 293,
+    "name": "Whismur",
+    "animated": "/avatars/Ani293MS.png",
+    "still": "/avatars/Ani293MS-still.png"
+  },
+  {
+    "key": "294MS",
+    "id": 294,
+    "name": "Loudred",
+    "animated": "/avatars/Ani294MS.png",
+    "still": "/avatars/Ani294MS-still.png"
+  },
+  {
+    "key": "295MS",
+    "id": 295,
+    "name": "Exploud",
+    "animated": "/avatars/Ani295MS.png",
+    "still": "/avatars/Ani295MS-still.png"
+  },
+  {
+    "key": "296MS",
+    "id": 296,
+    "name": "Makuhita",
+    "animated": "/avatars/Ani296MS.png",
+    "still": "/avatars/Ani296MS-still.png"
+  },
+  {
+    "key": "297MS",
+    "id": 297,
+    "name": "Hariyama",
+    "animated": "/avatars/Ani297MS.png",
+    "still": "/avatars/Ani297MS-still.png"
+  },
+  {
+    "key": "298MS",
+    "id": 298,
+    "name": "Azurill",
+    "animated": "/avatars/Ani298MS.png",
+    "still": "/avatars/Ani298MS-still.png"
+  },
+  {
+    "key": "299MS",
+    "id": 299,
+    "name": "Nosepass",
+    "animated": "/avatars/Ani299MS.png",
+    "still": "/avatars/Ani299MS-still.png"
+  },
+  {
+    "key": "300MS",
+    "id": 300,
+    "name": "Skitty",
+    "animated": "/avatars/Ani300MS.png",
+    "still": "/avatars/Ani300MS-still.png"
+  },
+  {
+    "key": "301MS",
+    "id": 301,
+    "name": "Delcatty",
+    "animated": "/avatars/Ani301MS.png",
+    "still": "/avatars/Ani301MS-still.png"
+  },
+  {
+    "key": "302MS",
+    "id": 302,
+    "name": "Sableye",
+    "animated": "/avatars/Ani302MS.png",
+    "still": "/avatars/Ani302MS-still.png"
+  },
+  {
+    "key": "303MS",
+    "id": 303,
+    "name": "Mawile",
+    "animated": "/avatars/Ani303MS.png",
+    "still": "/avatars/Ani303MS-still.png"
+  },
+  {
+    "key": "304MS",
+    "id": 304,
+    "name": "Aron",
+    "animated": "/avatars/Ani304MS.png",
+    "still": "/avatars/Ani304MS-still.png"
+  },
+  {
+    "key": "305MS",
+    "id": 305,
+    "name": "Lairon",
+    "animated": "/avatars/Ani305MS.png",
+    "still": "/avatars/Ani305MS-still.png"
+  },
+  {
+    "key": "306MS",
+    "id": 306,
+    "name": "Aggron",
+    "animated": "/avatars/Ani306MS.png",
+    "still": "/avatars/Ani306MS-still.png"
+  },
+  {
+    "key": "307MS",
+    "id": 307,
+    "name": "Meditite",
+    "animated": "/avatars/Ani307MS.png",
+    "still": "/avatars/Ani307MS-still.png"
+  },
+  {
+    "key": "308MS",
+    "id": 308,
+    "name": "Medicham",
+    "animated": "/avatars/Ani308MS.png",
+    "still": "/avatars/Ani308MS-still.png"
+  },
+  {
+    "key": "309MS",
+    "id": 309,
+    "name": "Electrike",
+    "animated": "/avatars/Ani309MS.png",
+    "still": "/avatars/Ani309MS-still.png"
+  },
+  {
+    "key": "310MS",
+    "id": 310,
+    "name": "Manectric",
+    "animated": "/avatars/Ani310MS.png",
+    "still": "/avatars/Ani310MS-still.png"
+  },
+  {
+    "key": "311MS",
+    "id": 311,
+    "name": "Plusle",
+    "animated": "/avatars/Ani311MS.png",
+    "still": "/avatars/Ani311MS-still.png"
+  },
+  {
+    "key": "312MS",
+    "id": 312,
+    "name": "Minun",
+    "animated": "/avatars/Ani312MS.png",
+    "still": "/avatars/Ani312MS-still.png"
+  },
+  {
+    "key": "313MS",
+    "id": 313,
+    "name": "Volbeat",
+    "animated": "/avatars/Ani313MS.png",
+    "still": "/avatars/Ani313MS-still.png"
+  },
+  {
+    "key": "314MS",
+    "id": 314,
+    "name": "Illumise",
+    "animated": "/avatars/Ani314MS.png",
+    "still": "/avatars/Ani314MS-still.png"
+  },
+  {
+    "key": "315MS",
+    "id": 315,
+    "name": "Roselia",
+    "animated": "/avatars/Ani315MS.png",
+    "still": "/avatars/Ani315MS-still.png"
+  },
+  {
+    "key": "316MS",
+    "id": 316,
+    "name": "Gulpin",
+    "animated": "/avatars/Ani316MS.png",
+    "still": "/avatars/Ani316MS-still.png"
+  },
+  {
+    "key": "317MS",
+    "id": 317,
+    "name": "Swalot",
+    "animated": "/avatars/Ani317MS.png",
+    "still": "/avatars/Ani317MS-still.png"
+  },
+  {
+    "key": "318MS",
+    "id": 318,
+    "name": "Carvanha",
+    "animated": "/avatars/Ani318MS.png",
+    "still": "/avatars/Ani318MS-still.png"
+  },
+  {
+    "key": "319MS",
+    "id": 319,
+    "name": "Sharpedo",
+    "animated": "/avatars/Ani319MS.png",
+    "still": "/avatars/Ani319MS-still.png"
+  },
+  {
+    "key": "320MS",
+    "id": 320,
+    "name": "Wailmer",
+    "animated": "/avatars/Ani320MS.png",
+    "still": "/avatars/Ani320MS-still.png"
+  },
+  {
+    "key": "321MS",
+    "id": 321,
+    "name": "Wailord",
+    "animated": "/avatars/Ani321MS.png",
+    "still": "/avatars/Ani321MS-still.png"
+  },
+  {
+    "key": "322MS",
+    "id": 322,
+    "name": "Numel",
+    "animated": "/avatars/Ani322MS.png",
+    "still": "/avatars/Ani322MS-still.png"
+  },
+  {
+    "key": "323MS",
+    "id": 323,
+    "name": "Camerupt",
+    "animated": "/avatars/Ani323MS.png",
+    "still": "/avatars/Ani323MS-still.png"
+  },
+  {
+    "key": "324MS",
+    "id": 324,
+    "name": "Torkoal",
+    "animated": "/avatars/Ani324MS.png",
+    "still": "/avatars/Ani324MS-still.png"
+  },
+  {
+    "key": "325MS",
+    "id": 325,
+    "name": "Spoink",
+    "animated": "/avatars/Ani325MS.png",
+    "still": "/avatars/Ani325MS-still.png"
+  },
+  {
+    "key": "326MS",
+    "id": 326,
+    "name": "Grumpig",
+    "animated": "/avatars/Ani326MS.png",
+    "still": "/avatars/Ani326MS-still.png"
+  },
+  {
+    "key": "327MS",
+    "id": 327,
+    "name": "Spinda",
+    "animated": "/avatars/Ani327MS.png",
+    "still": "/avatars/Ani327MS-still.png"
+  },
+  {
+    "key": "328MS",
+    "id": 328,
+    "name": "Trapinch",
+    "animated": "/avatars/Ani328MS.png",
+    "still": "/avatars/Ani328MS-still.png"
+  },
+  {
+    "key": "329MS",
+    "id": 329,
+    "name": "Vibrava",
+    "animated": "/avatars/Ani329MS.png",
+    "still": "/avatars/Ani329MS-still.png"
+  },
+  {
+    "key": "330MS",
+    "id": 330,
+    "name": "Flygon",
+    "animated": "/avatars/Ani330MS.png",
+    "still": "/avatars/Ani330MS-still.png"
+  },
+  {
+    "key": "331MS",
+    "id": 331,
+    "name": "Cacnea",
+    "animated": "/avatars/Ani331MS.png",
+    "still": "/avatars/Ani331MS-still.png"
+  },
+  {
+    "key": "332MS",
+    "id": 332,
+    "name": "Cacturne",
+    "animated": "/avatars/Ani332MS.png",
+    "still": "/avatars/Ani332MS-still.png"
+  },
+  {
+    "key": "333MS",
+    "id": 333,
+    "name": "Swablu",
+    "animated": "/avatars/Ani333MS.png",
+    "still": "/avatars/Ani333MS-still.png"
+  },
+  {
+    "key": "334MS",
+    "id": 334,
+    "name": "Altaria",
+    "animated": "/avatars/Ani334MS.png",
+    "still": "/avatars/Ani334MS-still.png"
+  },
+  {
+    "key": "335MS",
+    "id": 335,
+    "name": "Zangoose",
+    "animated": "/avatars/Ani335MS.png",
+    "still": "/avatars/Ani335MS-still.png"
+  },
+  {
+    "key": "336MS",
+    "id": 336,
+    "name": "Seviper",
+    "animated": "/avatars/Ani336MS.png",
+    "still": "/avatars/Ani336MS-still.png"
+  },
+  {
+    "key": "337MS",
+    "id": 337,
+    "name": "Lunatone",
+    "animated": "/avatars/Ani337MS.png",
+    "still": "/avatars/Ani337MS-still.png"
+  },
+  {
+    "key": "338MS",
+    "id": 338,
+    "name": "Solrock",
+    "animated": "/avatars/Ani338MS.png",
+    "still": "/avatars/Ani338MS-still.png"
+  },
+  {
+    "key": "339MS",
+    "id": 339,
+    "name": "Barboach",
+    "animated": "/avatars/Ani339MS.png",
+    "still": "/avatars/Ani339MS-still.png"
+  },
+  {
+    "key": "340MS",
+    "id": 340,
+    "name": "Whiscash",
+    "animated": "/avatars/Ani340MS.png",
+    "still": "/avatars/Ani340MS-still.png"
+  },
+  {
+    "key": "341MS",
+    "id": 341,
+    "name": "Corphish",
+    "animated": "/avatars/Ani341MS.png",
+    "still": "/avatars/Ani341MS-still.png"
+  },
+  {
+    "key": "342MS",
+    "id": 342,
+    "name": "Crawdaunt",
+    "animated": "/avatars/Ani342MS.png",
+    "still": "/avatars/Ani342MS-still.png"
+  },
+  {
+    "key": "343MS",
+    "id": 343,
+    "name": "Baltoy",
+    "animated": "/avatars/Ani343MS.png",
+    "still": "/avatars/Ani343MS-still.png"
+  },
+  {
+    "key": "344MS",
+    "id": 344,
+    "name": "Claydol",
+    "animated": "/avatars/Ani344MS.png",
+    "still": "/avatars/Ani344MS-still.png"
+  },
+  {
+    "key": "345MS",
+    "id": 345,
+    "name": "Lileep",
+    "animated": "/avatars/Ani345MS.png",
+    "still": "/avatars/Ani345MS-still.png"
+  },
+  {
+    "key": "346MS",
+    "id": 346,
+    "name": "Cradily",
+    "animated": "/avatars/Ani346MS.png",
+    "still": "/avatars/Ani346MS-still.png"
+  },
+  {
+    "key": "347MS",
+    "id": 347,
+    "name": "Anorith",
+    "animated": "/avatars/Ani347MS.png",
+    "still": "/avatars/Ani347MS-still.png"
+  },
+  {
+    "key": "348MS",
+    "id": 348,
+    "name": "Armaldo",
+    "animated": "/avatars/Ani348MS.png",
+    "still": "/avatars/Ani348MS-still.png"
+  },
+  {
+    "key": "349MS",
+    "id": 349,
+    "name": "Feebas",
+    "animated": "/avatars/Ani349MS.png",
+    "still": "/avatars/Ani349MS-still.png"
+  },
+  {
+    "key": "350MS",
+    "id": 350,
+    "name": "Milotic",
+    "animated": "/avatars/Ani350MS.png",
+    "still": "/avatars/Ani350MS-still.png"
+  },
+  {
+    "key": "351MS",
+    "id": 351,
+    "name": "Castform",
+    "animated": "/avatars/Ani351MS.png",
+    "still": "/avatars/Ani351MS-still.png"
+  },
+  {
+    "key": "351HMS",
+    "id": 351,
+    "name": "Castform (Snowy)",
+    "animated": "/avatars/Ani351HMS.png",
+    "still": "/avatars/Ani351HMS-still.png"
+  },
+  {
+    "key": "351RMS",
+    "id": 351,
+    "name": "Castform (Rainy)",
+    "animated": "/avatars/Ani351RMS.png",
+    "still": "/avatars/Ani351RMS-still.png"
+  },
+  {
+    "key": "351SMS",
+    "id": 351,
+    "name": "Castform (Sunny)",
+    "animated": "/avatars/Ani351SMS.png",
+    "still": "/avatars/Ani351SMS-still.png"
+  },
+  {
+    "key": "352MS",
+    "id": 352,
+    "name": "Kecleon",
+    "animated": "/avatars/Ani352MS.png",
+    "still": "/avatars/Ani352MS-still.png"
+  },
+  {
+    "key": "353MS",
+    "id": 353,
+    "name": "Shuppet",
+    "animated": "/avatars/Ani353MS.png",
+    "still": "/avatars/Ani353MS-still.png"
+  },
+  {
+    "key": "354MS",
+    "id": 354,
+    "name": "Banette",
+    "animated": "/avatars/Ani354MS.png",
+    "still": "/avatars/Ani354MS-still.png"
+  },
+  {
+    "key": "355MS",
+    "id": 355,
+    "name": "Duskull",
+    "animated": "/avatars/Ani355MS.png",
+    "still": "/avatars/Ani355MS-still.png"
+  },
+  {
+    "key": "356MS",
+    "id": 356,
+    "name": "Dusclops",
+    "animated": "/avatars/Ani356MS.png",
+    "still": "/avatars/Ani356MS-still.png"
+  },
+  {
+    "key": "357MS",
+    "id": 357,
+    "name": "Tropius",
+    "animated": "/avatars/Ani357MS.png",
+    "still": "/avatars/Ani357MS-still.png"
+  },
+  {
+    "key": "358MS",
+    "id": 358,
+    "name": "Chimecho",
+    "animated": "/avatars/Ani358MS.png",
+    "still": "/avatars/Ani358MS-still.png"
+  },
+  {
+    "key": "359MS",
+    "id": 359,
+    "name": "Absol",
+    "animated": "/avatars/Ani359MS.png",
+    "still": "/avatars/Ani359MS-still.png"
+  },
+  {
+    "key": "360MS",
+    "id": 360,
+    "name": "Wynaut",
+    "animated": "/avatars/Ani360MS.png",
+    "still": "/avatars/Ani360MS-still.png"
+  },
+  {
+    "key": "361MS",
+    "id": 361,
+    "name": "Snorunt",
+    "animated": "/avatars/Ani361MS.png",
+    "still": "/avatars/Ani361MS-still.png"
+  },
+  {
+    "key": "362MS",
+    "id": 362,
+    "name": "Glalie",
+    "animated": "/avatars/Ani362MS.png",
+    "still": "/avatars/Ani362MS-still.png"
+  },
+  {
+    "key": "363MS",
+    "id": 363,
+    "name": "Spheal",
+    "animated": "/avatars/Ani363MS.png",
+    "still": "/avatars/Ani363MS-still.png"
+  },
+  {
+    "key": "364MS",
+    "id": 364,
+    "name": "Sealeo",
+    "animated": "/avatars/Ani364MS.png",
+    "still": "/avatars/Ani364MS-still.png"
+  },
+  {
+    "key": "365MS",
+    "id": 365,
+    "name": "Walrein",
+    "animated": "/avatars/Ani365MS.png",
+    "still": "/avatars/Ani365MS-still.png"
+  },
+  {
+    "key": "366MS",
+    "id": 366,
+    "name": "Clamperl",
+    "animated": "/avatars/Ani366MS.png",
+    "still": "/avatars/Ani366MS-still.png"
+  },
+  {
+    "key": "367MS",
+    "id": 367,
+    "name": "Huntail",
+    "animated": "/avatars/Ani367MS.png",
+    "still": "/avatars/Ani367MS-still.png"
+  },
+  {
+    "key": "368MS",
+    "id": 368,
+    "name": "Gorebyss",
+    "animated": "/avatars/Ani368MS.png",
+    "still": "/avatars/Ani368MS-still.png"
+  },
+  {
+    "key": "369MS",
+    "id": 369,
+    "name": "Relicanth",
+    "animated": "/avatars/Ani369MS.png",
+    "still": "/avatars/Ani369MS-still.png"
+  },
+  {
+    "key": "370MS",
+    "id": 370,
+    "name": "Luvdisc",
+    "animated": "/avatars/Ani370MS.png",
+    "still": "/avatars/Ani370MS-still.png"
+  },
+  {
+    "key": "371MS",
+    "id": 371,
+    "name": "Bagon",
+    "animated": "/avatars/Ani371MS.png",
+    "still": "/avatars/Ani371MS-still.png"
+  },
+  {
+    "key": "372MS",
+    "id": 372,
+    "name": "Shelgon",
+    "animated": "/avatars/Ani372MS.png",
+    "still": "/avatars/Ani372MS-still.png"
+  },
+  {
+    "key": "373MS",
+    "id": 373,
+    "name": "Salamence",
+    "animated": "/avatars/Ani373MS.png",
+    "still": "/avatars/Ani373MS-still.png"
+  },
+  {
+    "key": "374MS",
+    "id": 374,
+    "name": "Beldum",
+    "animated": "/avatars/Ani374MS.png",
+    "still": "/avatars/Ani374MS-still.png"
+  },
+  {
+    "key": "375MS",
+    "id": 375,
+    "name": "Metang",
+    "animated": "/avatars/Ani375MS.png",
+    "still": "/avatars/Ani375MS-still.png"
+  },
+  {
+    "key": "376MS",
+    "id": 376,
+    "name": "Metagross",
+    "animated": "/avatars/Ani376MS.png",
+    "still": "/avatars/Ani376MS-still.png"
+  },
+  {
+    "key": "377MS",
+    "id": 377,
+    "name": "Regirock",
+    "animated": "/avatars/Ani377MS.png",
+    "still": "/avatars/Ani377MS-still.png"
+  },
+  {
+    "key": "378MS",
+    "id": 378,
+    "name": "Regice",
+    "animated": "/avatars/Ani378MS.png",
+    "still": "/avatars/Ani378MS-still.png"
+  },
+  {
+    "key": "379MS",
+    "id": 379,
+    "name": "Registeel",
+    "animated": "/avatars/Ani379MS.png",
+    "still": "/avatars/Ani379MS-still.png"
+  },
+  {
+    "key": "380MS",
+    "id": 380,
+    "name": "Latias",
+    "animated": "/avatars/Ani380MS.png",
+    "still": "/avatars/Ani380MS-still.png"
+  },
+  {
+    "key": "381MS",
+    "id": 381,
+    "name": "Latios",
+    "animated": "/avatars/Ani381MS.png",
+    "still": "/avatars/Ani381MS-still.png"
+  },
+  {
+    "key": "382MS",
+    "id": 382,
+    "name": "Kyogre",
+    "animated": "/avatars/Ani382MS.png",
+    "still": "/avatars/Ani382MS-still.png"
+  },
+  {
+    "key": "383MS",
+    "id": 383,
+    "name": "Groudon",
+    "animated": "/avatars/Ani383MS.png",
+    "still": "/avatars/Ani383MS-still.png"
+  },
+  {
+    "key": "384MS",
+    "id": 384,
+    "name": "Rayquaza",
+    "animated": "/avatars/Ani384MS.png",
+    "still": "/avatars/Ani384MS-still.png"
+  },
+  {
+    "key": "385MS",
+    "id": 385,
+    "name": "Jirachi",
+    "animated": "/avatars/Ani385MS.png",
+    "still": "/avatars/Ani385MS-still.png"
+  },
+  {
+    "key": "386MS",
+    "id": 386,
+    "name": "Deoxys",
+    "animated": "/avatars/Ani386MS.png",
+    "still": "/avatars/Ani386MS-still.png"
+  },
+  {
+    "key": "386AMS",
+    "id": 386,
+    "name": "Deoxys (Attack)",
+    "animated": "/avatars/Ani386AMS.png",
+    "still": "/avatars/Ani386AMS-still.png"
+  },
+  {
+    "key": "386DMS",
+    "id": 386,
+    "name": "Deoxys (Defense)",
+    "animated": "/avatars/Ani386DMS.png",
+    "still": "/avatars/Ani386DMS-still.png"
+  },
+  {
+    "key": "386SMS",
+    "id": 386,
+    "name": "Deoxys (Speed)",
+    "animated": "/avatars/Ani386SMS.png",
+    "still": "/avatars/Ani386SMS-still.png"
+  }
+]

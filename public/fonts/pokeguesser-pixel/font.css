@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "PokeGuesser Pixel";
+  src: url("./PokeGuesserPixel-Regular.woff2") format("woff2"),
+       url("./PokeGuesserPixel-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.pokeguesser-pixel {
+  font-family: "PokeGuesser Pixel", sans-serif;
+  font-synthesis: none;
+}

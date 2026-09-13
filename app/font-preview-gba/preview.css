@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "PokePixel GBA Preview";
+  src: url("/fonts/pokepixel-gba/pokepixel-gba.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+.gba-font-preview {
+  --font-pokeguesser: "PokePixel GBA Preview", monospace;
+  font-family: var(--font-pokeguesser);
+}
