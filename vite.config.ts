@@ -22,6 +22,10 @@ export default defineConfig(async ({ command }) => {
         compatibility_flags: ['nodejs_compat'],
         d1_databases: hosting.d1 ? [{ binding: hosting.d1, database_name: 'pokeguesser', database_id: productionDatabaseId || '00000000-0000-4000-8000-000000000000' }] : [],
         workers_dev: true,
+        routes: productionDatabaseId ? [
+          { pattern: 'gottanameemall.co.uk', custom_domain: true },
+          { pattern: 'www.gottanameemall.co.uk', custom_domain: true },
+        ] : [],
       },
     })],
     server: { host: '127.0.0.1', watch: { ignored: ['**/outputs/**'] } },
