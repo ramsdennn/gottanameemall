@@ -1,4 +1,4 @@
-# PokéGuesser
+# Gotta Name 'em All!
 
 A browser game for all 386 Pokémon in Generations 1–3. Select any combination of generations and easy, medium, hard, or very hard difficulty. The timer starts on your first correct answer. Shared leaderboards support Kanto, Kanto + Johto, and all three regions, independently for each difficulty.
 
@@ -12,6 +12,17 @@ Requires Node.js 24 (or newer with TypeScript stripping for tests).
 - Hosted production builds run as Cloudflare Workers with the `DB` D1 binding.
 - Check rules, catalogue, ranking, capacity and retry handling: `npm test`
 - Check TypeScript: `npm run typecheck`
+
+## Direct Cloudflare deployment
+
+This project can run on Cloudflare Workers with a D1 database named `pokeguesser`. The local SQLite leaderboard is separate from the hosted leaderboard; hosted boards start empty.
+
+1. In Cloudflare, create a D1 database named `pokeguesser` and copy its database ID. Set the Cloudflare Builds environment variable `POKEGUESSER_D1_DATABASE_ID` to that ID. Do not commit the ID or use the placeholder ID in a live deployment.
+2. Build with `npm run build`, then apply each unapplied `drizzle/*.sql` migration to the **remote** `pokeguesser` database using Wrangler before accepting leaderboard traffic. Keep a record of applied migrations; never run the same migration twice.
+3. Deploy with `npm run deploy:cloudflare`. The command refuses to deploy if the generated configuration lacks the matching real D1 ID. For Git-connected Workers Builds, use `npm run build` as the build command and `npm run deploy:cloudflare` as the deploy command. The Worker name is `gotta-name-em-all`.
+4. Test the generated `workers.dev` URL, including `GET /api/leaderboard` and a score submission, before adding `gottanameemall.co.uk` as a custom domain. Configure `www.gottanameemall.co.uk` to redirect to the apex domain.
+
+The generated Wrangler configuration is in `dist/server/wrangler.json` and is intentionally not committed. The D1 ID comes from the Cloudflare build environment so the source remains account-independent.
 
 If the system npm wrapper is broken on Windows, invoke its JavaScript entrypoint directly: `node "C:/Program Files/nodejs/node_modules/npm/bin/npm-cli.js" run dev`.
 

@@ -113,16 +113,17 @@ export function Leaderboard({ initialCategory, initialDifficulty, run, submissio
   };
 
   return <section className="leaderboard-screen" aria-labelledby="leaderboard-title">
-    <div className="leaderboard-heading"><div><p className="leaderboard-eyebrow">THE TOP 999 TRAINERS</p><h1 id="leaderboard-title">Pokédex Leaderboards</h1></div><button className="primary-button red-action" onClick={onMainMenu} disabled={saving}>MAIN MENU</button></div>
+    <div className="leaderboard-heading site-title-row"><h1 id="leaderboard-title">Gotta name 'em all!</h1><button className="primary-button red-action" onClick={onMainMenu} disabled={saving}>MAIN MENU</button></div>
     {onBack && <button className="text-button leaderboard-back" onClick={onBack} disabled={saving}>Back to results</button>}
     <div className="leaderboard-layout">
       {canSubmit && <form className="leaderboard-submit pixel-panel" onSubmit={submit}>
-        <h2>Your Pokédex entry</h2>
+        <h2>Leaderboard submission</h2>
         <p className="submission-category">{leaderboardRegions.find(region => region.id === runCategory)?.label}<br/>{leaderboardDifficulties.find(d => d.id === run?.difficulty)?.label}</p>
         <div className="submission-score"><div><span>POKÉMON</span><strong>{Object.keys(run!.revealed).length} / {run!.pokemon.length}</strong></div><div><span>TIME</span><strong>{formatTime(elapsed(run!, run!.endedAt ?? 0))}</strong></div></div>
-        <label className="leaderboard-field" htmlFor="trainer-name">Your name <span>{[...name].length}/10</span></label>
-        <input id="trainer-name" value={name} onChange={event => setName([...event.target.value].slice(0, 10).join(''))} required autoComplete="nickname" placeholder="Trainer name" disabled={saving}/>
-        <label className="leaderboard-field" htmlFor="avatar-search">Choose your Pokémon</label>
+        <label className="leaderboard-field" htmlFor="trainer-name">Name:</label>
+        <input id="trainer-name" value={name} onChange={event => setName([...event.target.value].slice(0, 10).join(''))} required autoComplete="nickname" placeholder="Max 10 chars" disabled={saving}/>
+        <label className="leaderboard-field" htmlFor="avatar-search">Pokémon:</label>
+        <p className="avatar-explainer">This Pokémon will be displayed with you on the leaderboard</p>
         <div className="chosen-avatar"><AvatarSprite avatar={avatarMap.get(avatar)!}/><span>{avatarMap.get(avatar)!.name}</span></div>
         <input id="avatar-search" type="search" placeholder="Search name or number…" value={search} onChange={event => { setSearch(event.target.value); if (avatarList.current) avatarList.current.scrollTop = 0; }} disabled={saving}/>
         <div className="avatar-picker" ref={avatarList} role="group" aria-label="Pokémon avatars">
@@ -134,23 +135,22 @@ export function Leaderboard({ initialCategory, initialDifficulty, run, submissio
         <button type="button" className="text-button" onClick={onBack || onMainMenu} disabled={saving}>Cancel</button>
       </form>}
       <div className="leaderboard-standings">
-        {outcome && <p className="submission-notice" role="status">{outcome.accepted ? outcome.entryId ? 'Your score is on the leaderboard!' : 'Your score was submitted. It is no longer in the top 999.' : 'Your score didn’t make the top 999.'}</p>}
-        <fieldset className="leaderboard-filters"><legend>Regions</legend>{leaderboardRegions.map(region => <button key={region.id} type="button" className={'leaderboard-choice' + (category === region.id ? ' selected' : '')} aria-pressed={category === region.id} onClick={() => changeCategory(region.id)}>{region.label}</button>)}</fieldset>
-        <fieldset className="leaderboard-filters difficulty-filters"><legend>Difficulty</legend>{leaderboardDifficulties.map(item => <button key={item.id} type="button" className={'leaderboard-choice' + (difficulty === item.id ? ' selected' : '')} aria-pressed={difficulty === item.id} onClick={() => changeDifficulty(item.id)}>{item.label}</button>)}</fieldset>
+        {outcome && !(outcome.accepted && outcome.entryId) && <p className="submission-notice" role="status">{outcome.accepted ? 'Your score was submitted. It is no longer in the top 999.' : 'Your score didn’t make the top 999.'}</p>}
+        <fieldset className="leaderboard-filters"><legend className="leaderboard-visually-hidden">Regions</legend>{leaderboardRegions.map(region => <button key={region.id} type="button" className={'leaderboard-choice' + (category === region.id ? ' selected' : '')} aria-pressed={category === region.id} onClick={() => changeCategory(region.id)}>{region.label}</button>)}</fieldset>
+        <fieldset className="leaderboard-filters difficulty-filters"><legend className="leaderboard-visually-hidden">Difficulty</legend>{leaderboardDifficulties.map(item => <button key={item.id} type="button" className={'leaderboard-choice' + (difficulty === item.id ? ' selected' : '')} aria-pressed={difficulty === item.id} onClick={() => changeDifficulty(item.id)}>{item.label}</button>)}</fieldset>
         <div className="dex-leaderboard-frame">
-          <div className="dex-list-title"><strong>{leaderboardRegions.find(region => region.id === category)?.label}</strong><span>{leaderboardDifficulties.find(item => item.id === difficulty)?.label}</span></div>
+          <div className="dex-list-title">LEADERBOARD</div>
           <div className="leaderboard-scroll" ref={list} tabIndex={0} role="region" aria-label="Leaderboard standings, scroll for more entries" aria-busy={loading}>
-            <table className="leaderboard-table"><thead><tr><th scope="col">Rank</th><th scope="col">Avatar</th><th scope="col">Name</th><th scope="col">Pokémon</th><th scope="col">Time</th></tr></thead>
+            <table className="leaderboard-table"><thead><tr><th scope="col">RANK</th><th scope="col"><span className="leaderboard-visually-hidden">Pokémon</span><span className="pkmn-heading" aria-hidden="true"><span>P</span><span>K</span><span>M</span><span>N</span></span></th><th scope="col">NAME</th><th scope="col">POKéMON</th><th scope="col">TIME</th></tr></thead>
               <tbody>{entries.map(entry => <tr key={entry.id} data-entry={entry.id} className={entry.id === outcome?.entryId ? 'own-entry' : ''}><td>{String(entry.rank).padStart(3, '0')}</td><td><AvatarSprite avatar={avatarMap.get(entry.avatar) || avatars[0]}/></td><td className="trainer-name">{entry.name}</td><td>{entry.correct}</td><td>{formatTime(entry.elapsedMs)}</td></tr>)}</tbody>
             </table>
-            {!loading && !loadError && !entries.length && <p className="leaderboard-message">No entries yet. Be the first trainer on this leaderboard!</p>}
+            {!loading && !loadError && !entries.length && <p className="leaderboard-message">No leaderboard submissions!</p>}
             {loadError && <div className="leaderboard-message" role="alert"><p>{loadError}</p><button className="text-button" onClick={() => void load(cursor, !entries.length)}>Try again</button></div>}
             {loading && <p className="leaderboard-message" role="status">Loading entries…</p>}
             <div ref={sentinel} className="leaderboard-sentinel" aria-hidden="true"/>
           </div>
-          <div className="dex-list-footer"><span>{entries.length} / {total} entries</span><span>{cursor ? 'Scroll for more' : 'Top 999 trainers'}</span></div>
+          <div className="dex-list-footer" aria-hidden="true" />
         </div>
-        <p className="leaderboard-rule">Most Pokémon first. Fastest time breaks the tie.</p>
       </div>
     </div>
   </section>;

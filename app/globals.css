@@ -33,6 +33,125 @@
 @media(max-width:650px){.game{padding-top:24px}.game-heading h1{font-size:27px}.game-heading .eyebrow{font-size:10px;letter-spacing:1px}.difficulty-badge{font-size:12px;padding:6px}.guess-bar{padding:14px 12px 10px;gap:8px 12px;grid-template-columns:1fr auto}.guess-field{grid-column:1/-1}.guess-field input{font-size:16px}.timer{min-width:0}.timer strong{font-size:22px}.timer>span{display:inline-block;margin:0 8px 0 0}.give-up{justify-self:end;padding:6px}.guess-help{font-size:12px}.progress-row{gap:10px;font-size:12px;margin-top:22px}.pokemon-grid{grid-template-columns:repeat(auto-fill,minmax(78px,1fr));gap:6px}.pokemon-cell{min-height:116px;scroll-margin-top:210px}.pokemon-name{font-size:11px}.dex-number{font-size:10px}.board-foot{flex-direction:column;gap:8px}.results{flex-direction:column;align-items:flex-start;padding:20px}.results h2{font-size:23px}.results-actions{gap:12px}.results-actions .timer{width:100%}.results-actions .timer strong{font-size:26px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
 
+/* Shared website title used by setup, gameplay, results, and leaderboards. */
+.site-title-row{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.site-title-row h1{margin:0;font-size:32px;line-height:1.15;letter-spacing:-1px;text-shadow:2px 2px #70a898}
+.welcome-title{margin-bottom:24px}
+.welcome,.game{width:100%;max-width:910px;margin-inline:auto;padding-top:8px}
+@media(max-width:650px){
+  .site-title-row h1{font-size:27px}
+  .welcome-title{margin-bottom:18px}
+  .welcome,.game{padding-top:2px}
+}
+
+/* Voice controls aligned with their related score panels. */
+.guess-status-row{
+  grid-column:1;
+  grid-row:2;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  min-width:0;
+}
+.guess-bar .guess-status-row .guess-help{
+  flex:0 0 92px;
+  min-width:92px;
+  margin:0;
+  padding:0;
+  white-space:nowrap;
+}
+.guess-status-row .voice-game-toggle{
+  width:max-content;
+  min-width:0;
+  max-width:100%;
+  padding:4px 7px;
+  white-space:nowrap;
+}
+@media(max-width:650px){
+  .guess-status-row{grid-column:1;grid-row:3;gap:8px}
+  .guess-bar .guess-status-row .guess-help{flex-basis:84px;min-width:84px}
+}
+
+/* Per-game voice guessing */
+.voice-menu-toggle{
+  position:relative;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  width:100%;
+  margin-top:12px;
+  border:3px solid #545f6b;
+  background:rgb(203 227 220);
+  color:#223c42;
+  min-height:43px;
+  padding:6px 10px;
+  cursor:pointer;
+  image-rendering:pixelated;
+  text-shadow:none;
+  box-shadow:inset 1px 1px #f8faf8,inset -1px -1px #879596;
+  clip-path:polygon(3px 0,calc(100% - 3px) 0,100% 3px,100% calc(100% - 3px),calc(100% - 3px) 100%,3px 100%,0 calc(100% - 3px),0 3px);
+}
+.voice-menu-toggle:hover,.voice-menu-toggle.selected,.voice-menu-toggle.selected:hover{background:rgb(203 227 220)}
+.voice-menu-toggle:has(input:focus-visible){outline:3px solid #d9943d;outline-offset:4px;filter:drop-shadow(0 0 3px #d9943d)}
+.voice-checkmark{position:relative;display:block;flex:0 0 18px;width:18px;height:18px;border:2px solid #223c42;background:#f7faf7;box-shadow:2px 2px 0 #758a8c}
+.voice-menu-toggle.selected .voice-checkmark{background:#37565a}
+.voice-menu-toggle.selected .voice-checkmark::after{content:"";position:absolute;left:1px;top:6px;width:2px;height:2px;background:#fff;box-shadow:2px 2px #fff,4px 4px #fff,6px 2px #fff,8px 0 #fff,10px -2px #fff,11px -2px #fff}
+.voice-menu-toggle>span:last-child{position:relative;top:1px;display:flex;align-items:center;gap:10px;min-width:0}
+.voice-menu-toggle strong,.voice-menu-toggle small{display:block}
+.voice-menu-toggle strong{flex:0 0 auto;white-space:nowrap;font-size:13px;font-weight:400;text-shadow:none}
+.voice-menu-toggle small{min-width:0;margin:0;color:inherit;font-size:11px;line-height:1.3}
+@media(max-width:650px){
+  .voice-menu-toggle>span:last-child{align-items:center;flex-wrap:wrap;gap:2px 8px}
+}
+.voice-game-toggle{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  min-width:122px;
+  border:1px solid #9fb8c7;
+  background:#f3f6ed;
+  color:#223d39;
+  padding:5px 7px;
+  font-size:10px;
+  line-height:1.2;
+}
+.voice-game-toggle[aria-pressed="true"]{background:#dcebd8;border-color:#8caf91}
+.voice-game-toggle.status-error{background:#f3d9d3;border-color:#a46559}
+.voice-game-label{position:relative;top:1px;display:flex;align-items:center;min-height:14px;line-height:14px}
+.voice-dot{width:8px;height:8px;background:#7d8b84;box-shadow:1px 1px 0 #45554e}
+.status-listening .voice-dot{background:#42a85f}
+.status-requesting .voice-dot,.status-restarting .voice-dot{background:#d99b35}
+.status-error .voice-dot{background:#bd4d43}
+.voice-feedback{
+  position:fixed;
+  z-index:60;
+  top:max(16px,env(safe-area-inset-top));
+  left:50%;
+  width:max-content;
+  max-width:calc(100vw - 32px);
+  transform:translate(-50%,-14px);
+  opacity:0;
+  pointer-events:none;
+  border:5px solid transparent;
+  border-image:url('/ui/menu-frame.png') 7 stretch;
+  background:#fffef9;
+  background-clip:padding-box;
+  padding:8px 12px;
+  color:#223d39;
+  font-size:12px;
+  line-height:1.4;
+  text-align:center;
+  transition:opacity .12s,transform .12s;
+}
+.voice-feedback.visible{opacity:1;transform:translate(-50%,0)}
+@media(max-width:650px){
+  .voice-game-toggle{min-width:0}
+  .voice-feedback{font-size:11px}
+  .guess-side .voice-game-toggle{grid-column:1;grid-row:3;justify-self:start;align-self:end}
+  .guess-bar .guess-help{padding-left:130px}
+}
+
 /* Responsive Pokédex entry panel */
 .dex-tooltip{
   width:max-content;
@@ -63,8 +182,8 @@
 .type-badges{display:flex;gap:2px}
 
 /* Compact game frame */
-.page-shell{padding-top:24px}.utility-row{display:flex;justify-content:flex-end;min-height:48px}.welcome{padding:10px 0 36px}.game{padding-top:8px}.sound-toggle{display:grid;place-items:center;width:44px;height:44px;padding:4px;border:2px solid #173e34;border-radius:0;background:#eaf1e4;color:#245b49;box-shadow:3px 3px 0 #aac0a4;transition:transform .08s,box-shadow .08s}.sound-toggle:hover{background:#dce9d5}.sound-toggle:active{transform:translate(2px,2px);box-shadow:1px 1px 0 #aac0a4}.pixel-speaker{display:block;image-rendering:pixelated}.speaker-shadow,.speaker-mute-shadow{fill:#9bb58f}.speaker-body{fill:#245b49}.speaker-wave{fill:#3c7b62}.speaker-mute{fill:#8a433b}.progress-row{grid-template-columns:auto 1fr}.dex-tooltip{width:max-content;max-width:min(340px,calc(100vw - 32px));padding:0!important;overflow:hidden;background:#e7dec6!important;color:#000;border:2px solid #c6b58c!important;border-image:none!important;border-radius:7px!important;box-shadow:none!important;text-wrap:wrap!important}.dex-tooltip-heading{display:flex;align-items:center;gap:5px;min-height:22px;padding:2px 6px;background:#fff;border-bottom:3px solid #7b6339}.dex-tooltip-heading strong{font:11px var(--font-pokeguesser);letter-spacing:.5px;color:#000}.dex-tooltip-entry{padding:7px 6px 9px;background:#e7dec6}.dex-tooltip-entry p{font:11px/1.55 var(--font-pokeguesser);margin:0;color:#000}.dex-tooltip>svg{display:none}.type-badges{display:flex;gap:2px}.type-badges img{display:block;width:32px;height:16px;object-fit:none;image-rendering:pixelated}.pokemon-cell:is(button){font:inherit}.pokemon-cell:is(button):hover{border-color:#739579}.pokemon-cell.missed:is(button){cursor:help}.pokemon-cell.missed:is(button):hover{border-color:#adb9a8}
-@media(max-width:650px){.page-shell{padding-top:12px}.utility-row{min-height:44px}.welcome{padding-top:4px}.sound-toggle{width:40px;height:40px}.game{padding-top:2px}}
+.page-shell{padding-top:24px}.utility-row{display:flex;justify-content:flex-end;min-height:48px}.welcome{padding:8px 0 36px}.game{padding-top:8px}.sound-toggle{display:grid;place-items:center;width:44px;height:44px;padding:4px;border:2px solid #173e34;border-radius:0;background:#eaf1e4;color:#245b49;box-shadow:3px 3px 0 #aac0a4;transition:transform .08s,box-shadow .08s}.sound-toggle:hover{background:#dce9d5}.sound-toggle:active{transform:translate(2px,2px);box-shadow:1px 1px 0 #aac0a4}.pixel-speaker{display:block;image-rendering:pixelated}.speaker-shadow,.speaker-mute-shadow{fill:#9bb58f}.speaker-body{fill:#245b49}.speaker-wave{fill:#3c7b62}.speaker-mute{fill:#8a433b}.progress-row{grid-template-columns:auto 1fr}.dex-tooltip{width:max-content;max-width:min(340px,calc(100vw - 32px));padding:0!important;overflow:hidden;background:#e7dec6!important;color:#000;border:2px solid #c6b58c!important;border-image:none!important;border-radius:7px!important;box-shadow:none!important;text-wrap:wrap!important}.dex-tooltip-heading{display:flex;align-items:center;gap:5px;min-height:22px;padding:2px 6px;background:#fff;border-bottom:3px solid #7b6339}.dex-tooltip-heading strong{font:11px var(--font-pokeguesser);letter-spacing:.5px;color:#000}.dex-tooltip-entry{padding:7px 6px 9px;background:#e7dec6}.dex-tooltip-entry p{font:11px/1.55 var(--font-pokeguesser);margin:0;color:#000}.dex-tooltip>svg{display:none}.type-badges{display:flex;gap:2px}.type-badges img{display:block;width:32px;height:16px;object-fit:none;image-rendering:pixelated}.pokemon-cell:is(button){font:inherit}.pokemon-cell:is(button):hover{border-color:#739579}.pokemon-cell.missed:is(button){cursor:help}.pokemon-cell.missed:is(button):hover{border-color:#adb9a8}
+@media(max-width:650px){.page-shell{padding-top:12px}.utility-row{min-height:44px}.welcome{padding-top:2px}.sound-toggle{width:40px;height:40px}.game{padding-top:2px}}
 .utility-row{max-width:910px;margin-inline:auto}.sound-toggle[aria-pressed="true"]{background:#dce2d8;color:#68796b}.welcome,.setup-panel,.generation-options{width:100%;min-width:0}.generation-options{grid-template-columns:repeat(3,minmax(0,1fr))}.generation-card{width:100%;min-width:0}.generation-card h3,.generation-card p,.generation-top{min-width:0;overflow:hidden}
 @media(max-width:650px){.generation-card h3{font-size:15px}.generation-card p{font-size:10px}.generation-top{font-size:9px}}
 
@@ -232,13 +351,13 @@
   background-clip:padding-box;
   padding:8px 10px;
 }
-.start-copy span{white-space:nowrap}
+.start-copy span{white-space:normal;overflow-wrap:anywhere;line-height:1.5}
 .difficulty-ball img{top:calc(50% - 3px)}
 .primary-button,.results-actions .primary-button{padding:8px 16px 8px 24px}
 .start-row>.primary-button{margin-left:auto;flex:0 0 auto}
 .pokemon-cell{display:grid;grid-template-columns:1fr;grid-template-rows:auto 1fr auto;justify-content:stretch;align-content:stretch;justify-items:center;align-items:center}
 .pokemon-cell .dex-number{justify-self:start}
-.pokemon-image{width:100%;height:auto;min-height:0;align-self:stretch}
+.pokemon-image{width:100%;height:auto;min-width:64px;min-height:64px;align-self:stretch}
 .pokemon-name:empty{display:none}
 .guess-pokeball{width:36px;height:36px;filter:grayscale(1);opacity:.48;image-rendering:pixelated}
 @media(max-width:650px){
@@ -573,18 +692,25 @@ body{background-size:16px 16px}
   padding:14px 0 24px;
 }
 .oak-heading{
-  width:min(624px,100%);
-  margin-bottom:0;
+  width:100%;
+  margin-bottom:24px;
   margin-right:auto;
   margin-left:auto;
+}
+.oak-rating.oak-frame{
+  width:100%;
+  max-width:910px;
+  align-content:center;
+  justify-items:center;
+  padding:28px;
 }
 .oak-scene-frame{
   display:block;
   width:min(624px,100%);
   border:7px solid transparent;
   border-image:url('/ui/menu-frame.png') 7 stretch;
-  background-clip:padding-box;
   background:#fffef9;
+  background-clip:padding-box;
 }
 .oak-scene-crop{
   width:100%;
@@ -653,6 +779,66 @@ body{background-size:16px 16px}
   min-width:130px;
   max-width:100%;
 }
+
+/* Reusable pixel confirmation dialog */
+.confirmation-backdrop{
+  position:fixed;
+  z-index:1000;
+  inset:0;
+  display:grid;
+  place-items:center;
+  padding:16px;
+  background:rgba(24,40,48,.68);
+}
+.confirmation-dialog{
+  width:min(460px,100%);
+  border:7px solid transparent;
+  border-image:url('/ui/menu-frame.png') 7 stretch;
+  background:#fffef9;
+  background-clip:padding-box;
+  padding:22px 24px 20px;
+  color:#223d39;
+  text-align:center;
+  image-rendering:pixelated;
+}
+.confirmation-dialog h2{
+  margin:0 0 18px;
+  font-size:20px;
+  line-height:1.2;
+}
+.confirmation-dialog p{
+  margin:0 auto 22px;
+  max-width:390px;
+  font-size:15px;
+  line-height:1.55;
+}
+.confirmation-actions{
+  display:flex;
+  justify-content:center;
+  gap:12px;
+}
+.confirmation-choice{
+  min-width:112px;
+  border:5px solid transparent;
+  border-image:url('/ui/choice-unselected.png') 5 fill stretch;
+  background:transparent;
+  padding:8px 16px;
+  color:#fff;
+  font-weight:700;
+  line-height:1.5;
+  text-shadow:2px 2px #707070;
+  image-rendering:pixelated;
+}
+.confirmation-choice:is(:hover,:focus-visible),.confirmation-choice.selected:focus-visible{
+  border-image-source:url('/ui/choice-selected.png');
+}
+@media(max-width:405px){
+  .confirmation-dialog{padding:18px 14px 16px}
+  .confirmation-dialog h2{font-size:18px}
+  .confirmation-dialog p{font-size:13px}
+  .confirmation-actions{gap:8px}
+  .confirmation-choice{min-width:96px;padding-inline:10px}
+}
 .oak-buttons{
   display:flex;
   flex-direction:column;
@@ -683,6 +869,7 @@ body{background-size:16px 16px}
 }
 .oak-side .timer>span,.oak-side .timer strong{color:#fff}
 @media(max-width:650px){
+  .oak-rating.oak-frame{padding:14px 9px 20px}
   .oak-scene-frame{width:100%;min-width:0;overflow:hidden}
   .oak-scene-crop{position:relative;width:100%;height:249px;aspect-ratio:auto;overflow:hidden}
   .oak-scene{
@@ -713,7 +900,7 @@ body{background-size:16px 16px}
 }
 
 /* Stack completed-game controls before their labels can collide. */
-@media(max-width:900px){
+@media(max-width:1050px){
   .results{
     height:auto;
     min-height:0;
@@ -746,6 +933,15 @@ body{background-size:16px 16px}
     margin-left:auto;
     gap:8px;
   }
+}
+
+/* Keep each prepared Pokédex sprite at its native display size while the grid
+   reduces its column count around it. */
+.pokemon-grid{grid-template-columns:repeat(auto-fill,minmax(94px,1fr))}
+.pokemon-cell{min-width:0}
+.sprite-wrap{min-width:64px;min-height:64px}
+@media(max-width:650px){
+  .pokemon-grid{grid-template-columns:repeat(auto-fill,minmax(84px,1fr))}
 }
 
 @media(max-width:650px){

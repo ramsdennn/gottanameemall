@@ -10,6 +10,7 @@ export default defineConfig(async ({ command }) => {
   process.env.WRANGLER_WRITE_LOGS ??= 'false';
   process.env.WRANGLER_LOG_PATH ??= '.wrangler/logs';
   const { cloudflare } = await import('@cloudflare/vite-plugin');
+  const productionDatabaseId = process.env.POKEGUESSER_D1_DATABASE_ID;
   const windowsPreview = command === 'serve' && process.platform === 'win32';
   return {
     resolve: windowsPreview ? { alias: { 'cloudflare:workers': fileURLToPath(new URL('./build/local-workers.ts', import.meta.url)) } } : undefined,
@@ -19,7 +20,7 @@ export default defineConfig(async ({ command }) => {
       config: {
         main: 'vinext/server/fetch-handler',
         compatibility_flags: ['nodejs_compat'],
-        d1_databases: hosting.d1 ? [{ binding: hosting.d1, database_name: 'pokeguesser', database_id: '00000000-0000-4000-8000-000000000000' }] : [],
+        d1_databases: hosting.d1 ? [{ binding: hosting.d1, database_name: 'pokeguesser', database_id: productionDatabaseId || '00000000-0000-4000-8000-000000000000' }] : [],
       },
     })],
     server: { host: '127.0.0.1', watch: { ignored: ['**/outputs/**'] } },

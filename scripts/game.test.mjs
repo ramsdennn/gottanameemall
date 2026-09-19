@@ -69,4 +69,5 @@ test('catalogue uses Generation 3 typing in slot order',()=>{
  assert.deepEqual(types(122),['psychic']);
  assert.deepEqual(types(184),['water']);
  assert.ok(existsSync(new URL('../public/audio/menu-select.mp3',import.meta.url)));
+ assert.ok(existsSync(new URL('../public/audio/hall-of-fame.mp3',import.meta.url)));
 });
