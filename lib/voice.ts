@@ -80,12 +80,13 @@ const testedAliases=Object.fromEntries(([
  ['credila','Cradily'],['phoebus','Feebas'],['kekon','Kecleon'],['why not','Wynaut'],["we're not",'Wynaut'],
  ['snow runt','Snorunt'],['clearly','Glalie'],['glarly','Glalie'],['spiel','Spheal'],['celia','Sealeo'],
  ['garbis','Gorebyss'],['garibis','Gorebyss'],['reggae ice','Regice'],['giracy','Jirachi'],['giraci','Jirachi'],
- ['worm pool','Wurmple'],['ladybird','Ledyba'],['cesar','Scizor'],['rolls','Ralts'],
+ ['worm pool','Wurmple'],['ladybird','Ledyba'],['cesar','Scizor'],['ceaser','Scizor'],['rolls','Ralts'],
  ['cardiovoir','Gardevoir'],['garden war','Gardevoir'],['menon','Minun'],['toros','Tauros'],
  ['flatter','Flaaffy'],['poly turd','Politoed'],['slurkin','Slowking'],['tricker','Treecko'],
  ['grow vail','Grovyle'],['grow vile','Grovyle'],['silicone','Silcoon'],['dust','Dustox'],
  ['sabali','Sableye'],['my wild','Mawile'],['wilma','Wailmer'],['nomal','Numel'],
  ['normal','Numel'],['tarcole','Torkoal'],['tacol','Torkoal'],
+ ['drowsee','Drowzee'],['cedra','Seadra'],['ceadra','Seadra'],['ride on','Rhydon'],
 ] as Array<[string,string]>).map(([heard,name])=>[normalize(heard),name])) as Record<string,string>;
 
 // Saved aliases and additional failed transcripts from the attached diagnostic report.

@@ -48,6 +48,7 @@ test('latest spoken aliases resolve to the intended Pokémon',()=>{
   'grow vail':'Grovyle','grow vile':'Grovyle',silicone:'Silcoon',dust:'Dustox',
   sabali:'Sableye','my wild':'Mawile',Wilma:'Wailmer',wilma:'Wailmer',
   nomal:'Numel',normal:'Numel',tarcole:'Torkoal',tacol:'Torkoal',
+  drowsee:'Drowzee',cedra:'Seadra',ceadra:'Seadra','ride on':'Rhydon',Ceaser:'Scizor',
  };
  for(const [heard,name] of Object.entries(aliases))assert.equal(resolveVoiceTranscript(heard,[],catalogue)[0]?.pokemon.name,name,heard);
 });
